@@ -1,0 +1,567 @@
+[
+  {
+    "iataCode": "EK",
+    "airlineName": "Emirates",
+    "country": "United Arab Emirates"
+  },
+  {
+    "iataCode": "EY",
+    "airlineName": "Etihad Airways",
+    "country": "United Arab Emirates"
+  },
+  {
+    "iataCode": "QR",
+    "airlineName": "Qatar Airways",
+    "country": "Qatar"
+  },
+  {
+    "iataCode": "SV",
+    "airlineName": "Saudia",
+    "country": "Saudi Arabia"
+  },
+  {
+    "iataCode": "MS",
+    "airlineName": "EgyptAir",
+    "country": "Egypt"
+  },
+  {
+    "iataCode": "RJ",
+    "airlineName": "Royal Jordanian",
+    "country": "Jordan"
+  },
+  {
+    "iataCode": "ME",
+    "airlineName": "Middle East Airlines",
+    "country": "Lebanon"
+  },
+  {
+    "iataCode": "GF",
+    "airlineName": "Gulf Air",
+    "country": "Bahrain"
+  },
+  {
+    "iataCode": "KU",
+    "airlineName": "Kuwait Airways",
+    "country": "Kuwait"
+  },
+  {
+    "iataCode": "AT",
+    "airlineName": "Royal Air Maroc",
+    "country": "Morocco"
+  },
+  {
+    "iataCode": "WY",
+    "airlineName": "Oman Air",
+    "country": "Oman"
+  },
+  {
+    "iataCode": "FZ",
+    "airlineName": "flydubai",
+    "country": "United Arab Emirates"
+  },
+  {
+    "iataCode": "G9",
+    "airlineName": "Air Arabia",
+    "country": "United Arab Emirates"
+  },
+  {
+    "iataCode": "J9",
+    "airlineName": "Jazeera Airways",
+    "country": "Kuwait"
+  },
+  {
+    "iataCode": "XY",
+    "airlineName": "flynas",
+    "country": "Saudi Arabia"
+  },
+  {
+    "iataCode": "IA",
+    "airlineName": "Iraqi Airways",
+    "country": "Iraq"
+  },
+  {
+    "iataCode": "RB",
+    "airlineName": "Syrian Air",
+    "country": "Syria"
+  },
+  {
+    "iataCode": "SD",
+    "airlineName": "Sudan Airways",
+    "country": "Sudan"
+  },
+  {
+    "iataCode": "TU",
+    "airlineName": "Tunisair",
+    "country": "Tunisia"
+  },
+  {
+    "iataCode": "AH",
+    "airlineName": "Air Algerie",
+    "country": "Algeria"
+  },
+  {
+    "iataCode": "LY",
+    "airlineName": "El Al",
+    "country": "Israel"
+  },
+  {
+    "iataCode": "TK",
+    "airlineName": "Turkish Airlines",
+    "country": "Turkey"
+  },
+  {
+    "iataCode": "PC",
+    "airlineName": "Pegasus Airlines",
+    "country": "Turkey"
+  },
+  {
+    "iataCode": "ET",
+    "airlineName": "Ethiopian Airlines",
+    "country": "Ethiopia"
+  },
+  {
+    "iataCode": "KQ",
+    "airlineName": "Kenya Airways",
+    "country": "Kenya"
+  },
+  {
+    "iataCode": "SA",
+    "airlineName": "South African Airways",
+    "country": "South Africa"
+  },
+  {
+    "iataCode": "MK",
+    "airlineName": "Air Mauritius",
+    "country": "Mauritius"
+  },
+  {
+    "iataCode": "WB",
+    "airlineName": "RwandAir",
+    "country": "Rwanda"
+  },
+  {
+    "iataCode": "HM",
+    "airlineName": "Air Seychelles",
+    "country": "Seychelles"
+  },
+  {
+    "iataCode": "W3",
+    "airlineName": "Arik Air",
+    "country": "Nigeria"
+  },
+  {
+    "iataCode": "AA",
+    "airlineName": "American Airlines",
+    "country": "United States"
+  },
+  {
+    "iataCode": "DL",
+    "airlineName": "Delta Air Lines",
+    "country": "United States"
+  },
+  {
+    "iataCode": "UA",
+    "airlineName": "United Airlines",
+    "country": "United States"
+  },
+  {
+    "iataCode": "WN",
+    "airlineName": "Southwest Airlines",
+    "country": "United States"
+  },
+  {
+    "iataCode": "AS",
+    "airlineName": "Alaska Airlines",
+    "country": "United States"
+  },
+  {
+    "iataCode": "B6",
+    "airlineName": "JetBlue Airways",
+    "country": "United States"
+  },
+  {
+    "iataCode": "F9",
+    "airlineName": "Frontier Airlines",
+    "country": "United States"
+  },
+  {
+    "iataCode": "NK",
+    "airlineName": "Spirit Airlines",
+    "country": "United States"
+  },
+  {
+    "iataCode": "HA",
+    "airlineName": "Hawaiian Airlines",
+    "country": "United States"
+  },
+  {
+    "iataCode": "AC",
+    "airlineName": "Air Canada",
+    "country": "Canada"
+  },
+  {
+    "iataCode": "WS",
+    "airlineName": "WestJet",
+    "country": "Canada"
+  },
+  {
+    "iataCode": "AM",
+    "airlineName": "Aeromexico",
+    "country": "Mexico"
+  },
+  {
+    "iataCode": "Y4",
+    "airlineName": "Volaris",
+    "country": "Mexico"
+  },
+  {
+    "iataCode": "VB",
+    "airlineName": "VivaAerobus",
+    "country": "Mexico"
+  },
+  {
+    "iataCode": "CM",
+    "airlineName": "Copa Airlines",
+    "country": "Panama"
+  },
+  {
+    "iataCode": "AV",
+    "airlineName": "Avianca",
+    "country": "Colombia"
+  },
+  {
+    "iataCode": "LA",
+    "airlineName": "LATAM Airlines",
+    "country": "Chile"
+  },
+  {
+    "iataCode": "G3",
+    "airlineName": "GOL Linhas Aereas",
+    "country": "Brazil"
+  },
+  {
+    "iataCode": "AD",
+    "airlineName": "Azul Brazilian Airlines",
+    "country": "Brazil"
+  },
+  {
+    "iataCode": "AR",
+    "airlineName": "Aerolineas Argentinas",
+    "country": "Argentina"
+  },
+  {
+    "iataCode": "BA",
+    "airlineName": "British Airways",
+    "country": "United Kingdom"
+  },
+  {
+    "iataCode": "LH",
+    "airlineName": "Lufthansa",
+    "country": "Germany"
+  },
+  {
+    "iataCode": "AF",
+    "airlineName": "Air France",
+    "country": "France"
+  },
+  {
+    "iataCode": "KL",
+    "airlineName": "KLM Royal Dutch Airlines",
+    "country": "Netherlands"
+  },
+  {
+    "iataCode": "IB",
+    "airlineName": "Iberia",
+    "country": "Spain"
+  },
+  {
+    "iataCode": "AZ",
+    "airlineName": "ITA Airways",
+    "country": "Italy"
+  },
+  {
+    "iataCode": "LX",
+    "airlineName": "Swiss International Air Lines",
+    "country": "Switzerland"
+  },
+  {
+    "iataCode": "OS",
+    "airlineName": "Austrian Airlines",
+    "country": "Austria"
+  },
+  {
+    "iataCode": "SN",
+    "airlineName": "Brussels Airlines",
+    "country": "Belgium"
+  },
+  {
+    "iataCode": "SK",
+    "airlineName": "SAS Scandinavian Airlines",
+    "country": "Sweden"
+  },
+  {
+    "iataCode": "AY",
+    "airlineName": "Finnair",
+    "country": "Finland"
+  },
+  {
+    "iataCode": "LO",
+    "airlineName": "LOT Polish Airlines",
+    "country": "Poland"
+  },
+  {
+    "iataCode": "OK",
+    "airlineName": "Czech Airlines",
+    "country": "Czech Republic"
+  },
+  {
+    "iataCode": "RO",
+    "airlineName": "TAROM",
+    "country": "Romania"
+  },
+  {
+    "iataCode": "JU",
+    "airlineName": "Air Serbia",
+    "country": "Serbia"
+  },
+  {
+    "iataCode": "A3",
+    "airlineName": "Aegean Airlines",
+    "country": "Greece"
+  },
+  {
+    "iataCode": "TP",
+    "airlineName": "TAP Air Portugal",
+    "country": "Portugal"
+  },
+  {
+    "iataCode": "FI",
+    "airlineName": "Icelandair",
+    "country": "Iceland"
+  },
+  {
+    "iataCode": "SU",
+    "airlineName": "Aeroflot",
+    "country": "Russia"
+  },
+  {
+    "iataCode": "U6",
+    "airlineName": "Ural Airlines",
+    "country": "Russia"
+  },
+  {
+    "iataCode": "FR",
+    "airlineName": "Ryanair",
+    "country": "Ireland"
+  },
+  {
+    "iataCode": "U2",
+    "airlineName": "easyJet",
+    "country": "United Kingdom"
+  },
+  {
+    "iataCode": "VY",
+    "airlineName": "Vueling",
+    "country": "Spain"
+  },
+  {
+    "iataCode": "W6",
+    "airlineName": "Wizz Air",
+    "country": "Hungary"
+  },
+  {
+    "iataCode": "DY",
+    "airlineName": "Norwegian Air Shuttle",
+    "country": "Norway"
+  },
+  {
+    "iataCode": "EW",
+    "airlineName": "Eurowings",
+    "country": "Germany"
+  },
+  {
+    "iataCode": "HV",
+    "airlineName": "Transavia",
+    "country": "Netherlands"
+  },
+  {
+    "iataCode": "UX",
+    "airlineName": "Air Europa",
+    "country": "Spain"
+  },
+  {
+    "iataCode": "VS",
+    "airlineName": "Virgin Atlantic",
+    "country": "United Kingdom"
+  },
+  {
+    "iataCode": "PS",
+    "airlineName": "Ukraine International Airlines",
+    "country": "Ukraine"
+  },
+  {
+    "iataCode": "CI",
+    "airlineName": "China Airlines",
+    "country": "Taiwan"
+  },
+  {
+    "iataCode": "BR",
+    "airlineName": "EVA Air",
+    "country": "Taiwan"
+  },
+  {
+    "iataCode": "JL",
+    "airlineName": "Japan Airlines",
+    "country": "Japan"
+  },
+  {
+    "iataCode": "NH",
+    "airlineName": "All Nippon Airways",
+    "country": "Japan"
+  },
+  {
+    "iataCode": "KE",
+    "airlineName": "Korean Air",
+    "country": "South Korea"
+  },
+  {
+    "iataCode": "OZ",
+    "airlineName": "Asiana Airlines",
+    "country": "South Korea"
+  },
+  {
+    "iataCode": "CA",
+    "airlineName": "Air China",
+    "country": "China"
+  },
+  {
+    "iataCode": "MU",
+    "airlineName": "China Eastern Airlines",
+    "country": "China"
+  },
+  {
+    "iataCode": "CZ",
+    "airlineName": "China Southern Airlines",
+    "country": "China"
+  },
+  {
+    "iataCode": "HX",
+    "airlineName": "Hong Kong Airlines",
+    "country": "Hong Kong"
+  },
+  {
+    "iataCode": "CX",
+    "airlineName": "Cathay Pacific",
+    "country": "Hong Kong"
+  },
+  {
+    "iataCode": "TG",
+    "airlineName": "Thai Airways",
+    "country": "Thailand"
+  },
+  {
+    "iataCode": "MH",
+    "airlineName": "Malaysia Airlines",
+    "country": "Malaysia"
+  },
+  {
+    "iataCode": "GA",
+    "airlineName": "Garuda Indonesia",
+    "country": "Indonesia"
+  },
+  {
+    "iataCode": "PR",
+    "airlineName": "Philippine Airlines",
+    "country": "Philippines"
+  },
+  {
+    "iataCode": "VN",
+    "airlineName": "Vietnam Airlines",
+    "country": "Vietnam"
+  },
+  {
+    "iataCode": "AI",
+    "airlineName": "Air India",
+    "country": "India"
+  },
+  {
+    "iataCode": "6E",
+    "airlineName": "IndiGo",
+    "country": "India"
+  },
+  {
+    "iataCode": "SG",
+    "airlineName": "SpiceJet",
+    "country": "India"
+  },
+  {
+    "iataCode": "PK",
+    "airlineName": "Pakistan International Airlines",
+    "country": "Pakistan"
+  },
+  {
+    "iataCode": "UL",
+    "airlineName": "SriLankan Airlines",
+    "country": "Sri Lanka"
+  },
+  {
+    "iataCode": "BG",
+    "airlineName": "Biman Bangladesh Airlines",
+    "country": "Bangladesh"
+  },
+  {
+    "iataCode": "FD",
+    "airlineName": "Thai AirAsia",
+    "country": "Thailand"
+  },
+  {
+    "iataCode": "AK",
+    "airlineName": "AirAsia",
+    "country": "Malaysia"
+  },
+  {
+    "iataCode": "TR",
+    "airlineName": "Scoot",
+    "country": "Singapore"
+  },
+  {
+    "iataCode": "JQ",
+    "airlineName": "Jetstar Airways",
+    "country": "Australia"
+  },
+  {
+    "iataCode": "VJ",
+    "airlineName": "VietJet Air",
+    "country": "Vietnam"
+  },
+  {
+    "iataCode": "SQ",
+    "airlineName": "Singapore Airlines",
+    "country": "Singapore"
+  },
+  {
+    "iataCode": "KC",
+    "airlineName": "Air Astana",
+    "country": "Kazakhstan"
+  },
+  {
+    "iataCode": "QF",
+    "airlineName": "Qantas",
+    "country": "Australia"
+  },
+  {
+    "iataCode": "NZ",
+    "airlineName": "Air New Zealand",
+    "country": "New Zealand"
+  },
+  {
+    "iataCode": "VA",
+    "airlineName": "Virgin Australia",
+    "country": "Australia"
+  },
+  {
+    "iataCode": "FJ",
+    "airlineName": "Fiji Airways",
+    "country": "Fiji"
+  }
+]

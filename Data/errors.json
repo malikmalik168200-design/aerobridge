@@ -1,0 +1,407 @@
+[
+  {
+    "errorMessage": "FORMAT",
+    "category": "خطأ صياغة",
+    "causeAr": "أشهر رسالة خطأ في أماديوس — معناها إن صياغة الأمر نفسها غلط (ترتيب الحروف، علامات الترقيم، أو حقل ناقص).",
+    "correctionAr": "راجع صياغة الأمر بالظبط زي القاعدة المكتوبة، أي فاصلة أو حرف زيادة أو ناقص بيطلع الرسالة دي.",
+    "categoryCode": "FORMAT",
+    "matchKeys": [
+      "FORMAT"
+    ]
+  },
+  {
+    "errorMessage": "INVALID CLASS",
+    "category": "خطأ بيانات",
+    "causeAr": "الفئة (⁦RBD⁩) اللي طلبتها مش موجودة أصلًا على الرحلة دي.",
+    "correctionAr": "ارجع لشاشة ⁦AN⁩ وشوف الفئات المتاحة فعليًا على السطر ده قبل ما تعمل ⁦SS⁩.",
+    "categoryCode": "DATA_REFERENCE",
+    "matchKeys": [
+      "INVALID CLASS"
+    ]
+  },
+  {
+    "errorMessage": "NO SEATS AVAILABLE - WAITLIST OPEN",
+    "category": "خطأ توفر",
+    "causeAr": "الفئة مقفولة تمامًا (صفر مقاعد) لكن فيه إمكانية انتظار.",
+    "correctionAr": "تقدر تعمل ⁦LL⁩ بدل ⁦SS⁩ لو عايز تحط الراكب على قائمة الانتظار.",
+    "categoryCode": "AVAILABILITY",
+    "matchKeys": [
+      "NO SEATS AVAILABLE - WAITLIST OPEN"
+    ]
+  },
+  {
+    "errorMessage": "SEGMENT SOLD OUT",
+    "category": "خطأ توفر",
+    "causeAr": "مفيش أي مقاعد ولا حتى انتظار متاح على السطر ده خالص.",
+    "correctionAr": "دور على رحلة بديلة بنفس اليوم أو يوم قريب.",
+    "categoryCode": "AVAILABILITY",
+    "matchKeys": [
+      "SEGMENT SOLD OUT"
+    ]
+  },
+  {
+    "errorMessage": "DUPLICATE SEGMENT EXISTS",
+    "category": "خطأ منطقي",
+    "causeAr": "بتحاول تبيع نفس الرحلة أو نفس المسار مرتين لنفس الـ ⁦PNR⁩.",
+    "correctionAr": "شوف السطور الموجودة في الـ ⁦PNR⁩ الأول (بأمر عرض الـ ⁦PNR⁩) قبل ما تضيف سطر جديد.",
+    "categoryCode": "DUPLICATE_CONFLICT",
+    "matchKeys": [
+      "DUPLICATE SEGMENT EXISTS"
+    ]
+  },
+  {
+    "errorMessage": "NAME FIELD MANDATORY",
+    "category": "خطأ منطقي (ترتيب)",
+    "causeAr": "بتحاول تنهي الـ ⁦PNR⁩ (⁦ER/RF⁩) من غير ما تضيف اسم راكب أصلًا (أو تضيف عنصر زي ⁦SSR⁩ محتاج راكب مسجل الأول).",
+    "correctionAr": "لازم تضيف اسم بأمر ⁦NM⁩ الأول قبل أي حاجة تانية.",
+    "categoryCode": "MANDATORY_MISSING",
+    "matchKeys": [
+      "NAME FIELD MANDATORY",
+      "PNR EMPTY - NEED NAME"
+    ]
+  },
+  {
+    "errorMessage": "RECEIVED FROM MANDATORY",
+    "category": "خطأ منطقي (ترتيب)",
+    "causeAr": "بتحاول تنهي الحجز من غير عنصر ⁦RF⁩ (اسم مين اللي طلب الحجز).",
+    "correctionAr": "ضيف ⁦RF⁩ متبوع بالاسم قبل أمر الإنهاء.",
+    "categoryCode": "MANDATORY_MISSING",
+    "matchKeys": [
+      "RECEIVED FROM MANDATORY",
+      "NEED RECEIVED FROM RF"
+    ]
+  },
+  {
+    "errorMessage": "INVALID CITY/AIRPORT CODE",
+    "category": "خطأ بيانات",
+    "causeAr": "كود المطار أو المدينة اللي كتبته مش موجود في النظام (3 حروف غلط أو مش ⁦IATA⁩ حقيقي).",
+    "correctionAr": "تأكد من كود الـ ⁦IATA⁩ الصحيح (زي ⁦CAI⁩ مش ⁦CRO⁩ مثلًا).",
+    "categoryCode": "DATA_REFERENCE",
+    "matchKeys": [
+      "INVALID CITY/AIRPORT CODE",
+      "UNKNOWN CITY/AIRPORT *"
+    ]
+  },
+  {
+    "errorMessage": "INVALID FLIGHT NUMBER",
+    "category": "خطأ بيانات",
+    "causeAr": "رقم الرحلة اللي كتبته مش موجود أصلًا لشركة الطيران دي.",
+    "correctionAr": "ارجع لشاشة ⁦AN⁩ وتأكد من رقم الرحلة بالظبط.",
+    "categoryCode": "DATA_REFERENCE",
+    "matchKeys": [
+      "INVALID FLIGHT NUMBER"
+    ]
+  },
+  {
+    "errorMessage": "PAST DATE",
+    "category": "خطأ منطقي",
+    "causeAr": "بتحاول تحجز على تاريخ فات فعلًا.",
+    "correctionAr": "تأكد من صياغة التاريخ ومن إنه تاريخ في المستقبل.",
+    "categoryCode": "LOGICAL",
+    "matchKeys": [
+      "PAST DATE"
+    ]
+  },
+  {
+    "errorMessage": "INVALID DATE FORMAT",
+    "category": "خطأ صياغة",
+    "causeAr": "صياغة التاريخ غلط (المفروض يوم بحرفين + شهر بـ 3 حروف، زي 15JUL).",
+    "correctionAr": "اكتب التاريخ بالصيغة الصح: رقم اليوم بحرفين وشهر مختصر 3 حروف كابيتال.",
+    "categoryCode": "FORMAT",
+    "matchKeys": [
+      "INVALID DATE FORMAT"
+    ]
+  },
+  {
+    "errorMessage": "MAX 9 PASSENGERS PER SEGMENT",
+    "category": "خطأ منطقي",
+    "causeAr": "بتحاول تحجز أكتر من 9 ركاب على نفس السطر في عملية واحدة.",
+    "correctionAr": "قسّم المجموعة لأكتر من طلب لو عدد الركاب أكتر من 9.",
+    "categoryCode": "LOGICAL",
+    "matchKeys": [
+      "MAX 9 PASSENGERS PER SEGMENT"
+    ]
+  },
+  {
+    "errorMessage": "ITEM NOT FOUND / NO PNR",
+    "category": "خطأ منطقي",
+    "causeAr": "بتحاول تسترجع أو تعدّل ⁦PNR⁩ مش موجود أصلًا أو الرقم غلط.",
+    "correctionAr": "تأكد من رقم الـ ⁦PNR⁩ الصحيح (6 حروف/أرقام).",
+    "categoryCode": "DATA_REFERENCE",
+    "matchKeys": [
+      "ITEM NOT FOUND / NO PNR",
+      "RECORD LOCATOR NOT FOUND"
+    ]
+  },
+  {
+    "errorMessage": "UNABLE TO PROCESS - PLEASE VERIFY ENTRY",
+    "category": "خطأ عام",
+    "causeAr": "رسالة عامة بترجع لما فيه حاجة في الأمر مش مفهومة للنظام، مش دايمًا واضح مكان الغلط بالظبط.",
+    "correctionAr": "راجع الأمر كله سطر سطر، وابدأ بالتأكد من كود المطارات وأرقام الرحلات.",
+    "categoryCode": "GENERAL",
+    "matchKeys": [
+      "UNABLE TO PROCESS - PLEASE VERIFY ENTRY"
+    ]
+  },
+  {
+    "errorMessage": "TICKETING ARRANGEMENT MANDATORY",
+    "category": "خطأ منطقي (ترتيب)",
+    "causeAr": "بتحاول تنهي ⁦PNR⁩ من غير ما تضيف عنصر ⁦TK⁩ (آخر موعد لإصدار التذكرة).",
+    "correctionAr": "ضيف عنصر ⁦TK⁩ قبل الإنهاء، حتى لو كان ⁦TKOK⁩ (يعني التذكرة هتتصدر فورًا).",
+    "categoryCode": "MANDATORY_MISSING",
+    "matchKeys": [
+      "TICKETING ARRANGEMENT MANDATORY",
+      "NEED TICKETING ARRANGEMENT TK"
+    ]
+  },
+  {
+    "errorMessage": "UNKNOWN COMMAND",
+    "category": "خطأ عام",
+    "causeAr": "كود الأمر (أول حرفين) مش من ضمن الأوامر اللي النظام بيعرفها.",
+    "correctionAr": "تأكد من كود الأمر الصحيح (⁦AN⁩, ⁦SS⁩, ⁦NM⁩, ⁦AP⁩, ⁦TK⁩, ⁦RF⁩, ⁦ER⁩, ⁦FQD⁩, ⁦FXP⁩, ⁦HA⁩, ⁦HS⁩, ⁦CA⁩, ⁦CS⁩, ⁦SR⁩, ⁦TI⁩, ⁦QT⁩, ⁦QC⁩, ⁦QS⁩, ⁦QN⁩, ⁦QI⁩, ⁦QE⁩) قبل ما تكمل باقي الأمر.",
+    "categoryCode": "GENERAL",
+    "matchKeys": [
+      "UNKNOWN COMMAND"
+    ]
+  },
+  {
+    "errorMessage": "INVALID CITY PAIR",
+    "category": "خطأ منطقي",
+    "causeAr": "مطار الانطلاق ومطار الوصول اللي كتبتهم نفس الكود بالظبط.",
+    "correctionAr": "تأكد إن كود المدينة الأولى مختلف عن التانية.",
+    "categoryCode": "LOGICAL",
+    "matchKeys": [
+      "INVALID CITY PAIR"
+    ]
+  },
+  {
+    "errorMessage": "NO FLIGHTS FOUND FOR CITY PAIR/DATE",
+    "category": "خطأ توفر",
+    "causeAr": "مفيش رحلات متاحة على المسار والتاريخ اللي طلبتهم في قاعدة البيانات.",
+    "correctionAr": "جرب تاريخ تاني قريب أو تأكد من كود المطارات.",
+    "categoryCode": "AVAILABILITY",
+    "matchKeys": [
+      "NO FLIGHTS FOUND FOR CITY PAIR/DATE"
+    ]
+  },
+  {
+    "errorMessage": "NEED AVAILABILITY DISPLAY FIRST",
+    "category": "خطأ ترتيب/تسلسل",
+    "causeAr": "بتحاول تعمل ⁦SS⁩ من غير ما تعمل ⁦AN⁩ الأول لنفس الجلسة، فمفيش سطر رقمه يترجع له الأمر.",
+    "correctionAr": "لازم تعمل ⁦AN⁩ الأول عشان تشوف الرحلات وأرقام السطور، وبعدين تعمل ⁦SS⁩ برقم السطر الصح.",
+    "categoryCode": "SEQUENCE",
+    "matchKeys": [
+      "NEED AVAILABILITY DISPLAY FIRST"
+    ]
+  },
+  {
+    "errorMessage": "INVALID LINE NUMBER",
+    "category": "خطأ بيانات",
+    "causeAr": "رقم السطر اللي كتبته مش موجود في آخر عرض توفر (⁦AN⁩ أو ⁦HA⁩ أو ⁦CA⁩).",
+    "correctionAr": "راجع أرقام السطور في آخر عرض توفر عملته واختار رقم موجود فعلًا.",
+    "categoryCode": "DATA_REFERENCE",
+    "matchKeys": [
+      "INVALID LINE NUMBER"
+    ]
+  },
+  {
+    "errorMessage": "CLASS NOT AVAILABLE",
+    "category": "خطأ توفر",
+    "causeAr": "الفئة (⁦RBD⁩) اللي طلبتها موجودة على الرحلة بس صفر مقاعد فيها دلوقتي.",
+    "correctionAr": "شوف فئة تانية متاحة في نفس السطر، أو رحلة تانية.",
+    "categoryCode": "AVAILABILITY",
+    "matchKeys": [
+      "CLASS NOT AVAILABLE"
+    ]
+  },
+  {
+    "errorMessage": "NOT ENOUGH SEATS AVAILABLE",
+    "category": "خطأ توفر",
+    "causeAr": "عدد المقاعد اللي طلبتها أكتر من المتاح فعلًا في الفئة دي.",
+    "correctionAr": "اطلب عدد مقاعد أقل أو يساوي المتاح، أو جرب فئة تانية.",
+    "categoryCode": "AVAILABILITY",
+    "matchKeys": [
+      "NOT ENOUGH SEATS AVAILABLE"
+    ]
+  },
+  {
+    "errorMessage": "NO ITINERARY SEGMENTS",
+    "category": "خطأ منطقي (ترتيب)",
+    "causeAr": "بتحاول تنهي الـ ⁦PNR⁩ (⁦ER⁩) من غير ما يكون فيه أي سطر رحلة (Segment) متسجل أصلًا.",
+    "correctionAr": "لازم تعمل ⁦SS⁩ الأول وتحجز سطر رحلة قبل أي حاجة تانية.",
+    "categoryCode": "MANDATORY_MISSING",
+    "matchKeys": [
+      "NO ITINERARY SEGMENTS"
+    ]
+  },
+  {
+    "errorMessage": "NEED CONTACT ELEMENT AP",
+    "category": "خطأ منطقي (ترتيب)",
+    "causeAr": "بتحاول تنهي الـ ⁦PNR⁩ من غير ما تضيف عنصر التواصل (⁦AP⁩) — رقم تليفون أو إيميل.",
+    "correctionAr": "ضيف ⁦AP⁩ بكود المدينة ورقم التليفون قبل أمر الإنهاء.",
+    "categoryCode": "MANDATORY_MISSING",
+    "matchKeys": [
+      "NEED CONTACT ELEMENT AP"
+    ]
+  },
+  {
+    "errorMessage": "NO FARES FOUND FOR CITY PAIR",
+    "category": "خطأ توفر",
+    "causeAr": "مفيش بيانات أسعار مسجلة لمسار المدينتين ده في قاعدة بيانات الأسعار (fares.json) لحد دلوقتي.",
+    "correctionAr": "جرب مسار تاني اتغطى بالأسعار فعلًا، أو تأكد من كود المطارين.",
+    "categoryCode": "AVAILABILITY",
+    "matchKeys": [
+      "NO FARES FOUND FOR CITY PAIR*"
+    ]
+  },
+  {
+    "errorMessage": "NO HOTELS FOUND FOR CITY",
+    "category": "خطأ توفر",
+    "causeAr": "مفيش فنادق مسجلة لكود المدينة ده في قاعدة بيانات الفنادق (hotels.json) لحد دلوقتي.",
+    "correctionAr": "جرب مدينة تانية اتغطت بالفنادق فعلًا (المرحلة 7 غطّت ⁦CAI/DXB/JED⁩ بس لحد دلوقتي)، أو تأكد من كود المدينة.",
+    "categoryCode": "AVAILABILITY",
+    "matchKeys": [
+      "NO HOTELS FOUND FOR CITY"
+    ]
+  },
+  {
+    "errorMessage": "NEED HOTEL AVAILABILITY DISPLAY FIRST",
+    "category": "خطأ ترتيب/تسلسل",
+    "causeAr": "بتحاول تعمل ⁦HS⁩ من غير ما تعمل ⁦HA⁩ الأول لنفس الجلسة، فمفيش سطر رقمه يترجع له الأمر.",
+    "correctionAr": "لازم تعمل ⁦HA⁩ الأول عشان تشوف الفنادق وأرقام السطور، وبعدين تعمل ⁦HS⁩ برقم السطر الصح.",
+    "categoryCode": "SEQUENCE",
+    "matchKeys": [
+      "NEED HOTEL AVAILABILITY DISPLAY FIRST"
+    ]
+  },
+  {
+    "errorMessage": "NO VEHICLES FOUND FOR CITY",
+    "category": "خطأ توفر",
+    "causeAr": "مفيش سيارات مسجلة لكود المدينة ده في قاعدة بيانات السيارات (cars.json) لحد دلوقتي.",
+    "correctionAr": "جرب مدينة تانية اتغطت بالسيارات فعلًا (المرحلة 7 غطّت ⁦CAI/DXB/JED⁩ بس لحد دلوقتي)، أو تأكد من كود المدينة.",
+    "categoryCode": "AVAILABILITY",
+    "matchKeys": [
+      "NO VEHICLES FOUND FOR CITY"
+    ]
+  },
+  {
+    "errorMessage": "NEED CAR AVAILABILITY DISPLAY FIRST",
+    "category": "خطأ ترتيب/تسلسل",
+    "causeAr": "بتحاول تعمل ⁦CS⁩ من غير ما تعمل ⁦CA⁩ الأول لنفس الجلسة، فمفيش سطر رقمه يترجع له الأمر. (ملحوظة: الرسالة دي مش مذكورة صراحة في سبك المرحلة 7 — القسم 5 عدّ بس 5 رسايل خطأ جديدة، لكن ⁦CS⁩ محتاجة نفس حماية ⁦HS⁩ بالظبط وإلا هتفشل من غير أي رسالة واضحة، فاتضافت هنا بنفس المنطق ونفس التصنيف ⁦SEQUENCE⁩.)",
+    "correctionAr": "لازم تعمل ⁦CA⁩ الأول عشان تشوف السيارات وأرقام السطور، وبعدين تعمل ⁦CS⁩ برقم السطر الصح.",
+    "categoryCode": "SEQUENCE",
+    "matchKeys": [
+      "NEED CAR AVAILABILITY DISPLAY FIRST"
+    ]
+  },
+  {
+    "errorMessage": "INVALID SSR CODE",
+    "category": "خطأ بيانات",
+    "causeAr": "كود الـ ⁦SSR⁩ اللي كتبته (4 حروف) مش موجود في الكتالوج الثابت (data/ssr.json).",
+    "correctionAr": "راجع كتالوج أكواد ⁦SSR⁩ المتاحة (⁦WCHR⁩, ⁦VGML⁩, ⁦CHML⁩, ⁦BBML⁩, ⁦DEAF⁩, ⁦BLND⁩, ⁦UMNR⁩, ⁦XBAG⁩) قبل ما تكتب الأمر.",
+    "categoryCode": "DATA_REFERENCE",
+    "matchKeys": [
+      "INVALID SSR CODE"
+    ]
+  },
+  {
+    "errorMessage": "NO TIMATIC DATA FOR DESTINATION",
+    "category": "خطأ بيانات",
+    "causeAr": "مفيش بيانات Timatic مسجلة لكود الوجهة ده في قاعدة البيانات المبسّطة (timatic.json) لحد دلوقتي.",
+    "correctionAr": "جرب وجهة تانية اتغطت فعلًا، أو تأكد من كود المطار/المدينة.",
+    "categoryCode": "DATA_REFERENCE",
+    "matchKeys": [
+      "NO TIMATIC DATA FOR DESTINATION"
+    ]
+  },
+  {
+    "errorMessage": "QUEUE NOT FOUND",
+    "category": "خطأ بيانات",
+    "causeAr": "رقم الطابور (أو رقم الطابور + الفئة) اللي طلبته مش موجود في بيانات الطوابير الحالية.",
+    "correctionAr": "اعمل ⁦QT⁩ الأول عشان تشوف كل الطوابير المتاحة وأرقامها الصحيحة.",
+    "categoryCode": "DATA_REFERENCE",
+    "matchKeys": [
+      "QUEUE NOT FOUND"
+    ]
+  },
+  {
+    "errorMessage": "QUEUE EMPTY",
+    "category": "خطأ توفر",
+    "causeAr": "الطابور ده موجود فعلًا بس مفيش أي PNRs متسجلة فيه دلوقتي.",
+    "correctionAr": "جرب طابور تاني فيه PNRs (شوف الأعداد بأمر ⁦QT⁩ أو ⁦QC⁩ الأول).",
+    "categoryCode": "AVAILABILITY",
+    "matchKeys": [
+      "QUEUE EMPTY"
+    ]
+  },
+  {
+    "errorMessage": "NOT IN QUEUE MODE",
+    "category": "خطأ ترتيب/تسلسل",
+    "causeAr": "بتحاول تستخدم ⁦QN⁩ أو ⁦QI⁩ من غير ما تكون داخل وضع تصفح طابور أصلًا.",
+    "correctionAr": "لازم تعمل ⁦QS⁩ الأول (برقم طابور وفئة) عشان تدخل وضع التصفح، وبعدين تقدر تستخدم ⁦QN⁩ أو ⁦QI⁩.",
+    "categoryCode": "SEQUENCE",
+    "matchKeys": [
+      "NOT IN QUEUE MODE"
+    ]
+  },
+  {
+    "errorMessage": "PNR NOT ENDED YET - USE ER FIRST",
+    "category": "خطأ ترتيب/تسلسل",
+    "causeAr": "بتحاول تحط ⁦PNR⁩ على طابور (⁦QE⁩) وهو لسه ماتقفلش رسميًا بـ ⁦ER⁩ — كل العناصر الإلزامية موجودة بس الـ Record Locator لسه ماتولّدش.",
+    "correctionAr": "اعمل ⁦ER⁩ الأول عشان تقفل الحجز وتاخد Record Locator، وبعدين اعمل ⁦QE⁩ على نفس الطابور.",
+    "categoryCode": "SEQUENCE",
+    "matchKeys": [
+      "PNR NOT ENDED YET - USE ER FIRST"
+    ]
+  },
+  {
+    "errorMessage": "MAXIMUM 2 SEGMENTS SUPPORTED (ROUND-TRIP ONLY)",
+    "category": "خطأ منطقي",
+    "causeAr": "بتحاول تبيع رحلة تالتة على نفس الحجز، والمحاكي حاليًا بيدعم ذهاب وعودة بس (Segmentين كحد أقصى).",
+    "correctionAr": "لو محتاج مسار مركب (Multi-city/Connections)، ده مش مدعوم لسه في النسخة الحالية.",
+    "categoryCode": "LOGICAL",
+    "matchKeys": [
+      "MAXIMUM 2 SEGMENTS SUPPORTED (ROUND-TRIP ONLY)"
+    ]
+  },
+  {
+    "errorMessage": "SEAT COUNT MUST MATCH FIRST SEGMENT",
+    "category": "خطأ منطقي",
+    "causeAr": "عدد المقاعد اللي طلبتها في رحلة العودة مختلف عن عدد المقاعد في رحلة الذهاب.",
+    "correctionAr": "استخدم نفس عدد المقاعد اللي حجزته في الرحلة الأولى.",
+    "categoryCode": "LOGICAL",
+    "matchKeys": [
+      "SEAT COUNT MUST MATCH FIRST SEGMENT"
+    ]
+  },
+  {
+    "errorMessage": "ALL PASSENGERS ALREADY NAMED",
+    "category": "خطأ منطقي",
+    "causeAr": "بتحاول تضيف اسم راكب زيادة عن عدد المقاعد اللي اتحجزت فعليًا.",
+    "correctionAr": "عدد الركاب لازم يطابق عدد المقاعد المحجوزة بالظبط — راجع عدد المقاعد اللي طلبته في ⁦SS⁩.",
+    "categoryCode": "LOGICAL",
+    "matchKeys": [
+      "ALL PASSENGERS ALREADY NAMED"
+    ]
+  },
+  {
+    "errorMessage": "PASSENGER COUNT DOES NOT MATCH SEATS SOLD",
+    "category": "خطأ منطقي (ترتيب)",
+    "causeAr": "بتحاول تقفل الحجز (⁦ER/ET⁩) وعدد الركاب المسجلين بالاسم أقل من عدد المقاعد اللي اتحجزت.",
+    "correctionAr": "ضيف باقي أسماء الركاب بأمر ⁦NM⁩ لحد ما يطابق عدد المقاعد المحجوزة، وبعدين اقفل الحجز.",
+    "categoryCode": "MANDATORY_MISSING",
+    "matchKeys": [
+      "PASSENGER COUNT DOES NOT MATCH SEATS SOLD"
+    ]
+  },
+  {
+    "errorMessage": "MAXIMUM 9 PASSENGERS PER PNR",
+    "category": "خطأ منطقي",
+    "causeAr": "بتحاول تسجل أكتر من 9 ركاب على نفس الحجز قبل ما تحجز أي رحلة أصلًا (الحد الأقصى الحقيقي في أماديوس هو 9 ركاب لكل ⁦PNR⁩).",
+    "correctionAr": "لو المجموعة أكتر من 9، لازم تتقسم على أكتر من حجز منفصل.",
+    "categoryCode": "LOGICAL",
+    "matchKeys": [
+      "MAXIMUM 9 PASSENGERS PER PNR"
+    ]
+  }
+]

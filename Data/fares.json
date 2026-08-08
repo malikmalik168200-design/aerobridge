@@ -1,0 +1,65 @@
+[
+  {
+    "origin": "CAI",
+    "destination": "DXB",
+    "currency": "USD",
+    "fares": [
+      { "bookingClass": "F", "fareBasis": "FOW", "baseFare": 2200, "baggageAllowance": "40KG" },
+      { "bookingClass": "A", "fareBasis": "AOW", "baseFare": 1800, "baggageAllowance": "40KG" },
+      { "bookingClass": "J", "fareBasis": "JOW", "baseFare": 1200, "baggageAllowance": "35KG" },
+      { "bookingClass": "C", "fareBasis": "COW", "baseFare": 950, "baggageAllowance": "35KG" },
+      { "bookingClass": "D", "fareBasis": "DOW", "baseFare": 750, "baggageAllowance": "30KG" },
+      { "bookingClass": "Y", "fareBasis": "YOW", "baseFare": 320, "baggageAllowance": "30KG" },
+      { "bookingClass": "B", "fareBasis": "BOW", "baseFare": 260, "baggageAllowance": "30KG" },
+      { "bookingClass": "M", "fareBasis": "MOW", "baseFare": 190, "baggageAllowance": "23KG" },
+      { "bookingClass": "H", "fareBasis": "HOW", "baseFare": 150, "baggageAllowance": "23KG" },
+      { "bookingClass": "K", "fareBasis": "KOW", "baseFare": 120, "baggageAllowance": "20KG" }
+    ],
+    "taxes": [
+      { "code": "YQ", "amount": 45, "descriptionAr": "رسم وقود (Fuel Surcharge)" },
+      { "code": "XT", "amount": 30, "descriptionAr": "ضرائب ورسوم مطارات متنوعة" }
+    ]
+  },
+  {
+    "origin": "DXB",
+    "destination": "LHR",
+    "currency": "USD",
+    "fares": [
+      { "bookingClass": "F", "fareBasis": "FOW", "baseFare": 4500, "baggageAllowance": "40KG" },
+      { "bookingClass": "A", "fareBasis": "AOW", "baseFare": 3800, "baggageAllowance": "40KG" },
+      { "bookingClass": "J", "fareBasis": "JOW", "baseFare": 2400, "baggageAllowance": "35KG" },
+      { "bookingClass": "C", "fareBasis": "COW", "baseFare": 1900, "baggageAllowance": "35KG" },
+      { "bookingClass": "D", "fareBasis": "DOW", "baseFare": 1500, "baggageAllowance": "30KG" },
+      { "bookingClass": "Y", "fareBasis": "YOW", "baseFare": 650, "baggageAllowance": "30KG" },
+      { "bookingClass": "B", "fareBasis": "BOW", "baseFare": 520, "baggageAllowance": "30KG" },
+      { "bookingClass": "M", "fareBasis": "MOW", "baseFare": 400, "baggageAllowance": "23KG" },
+      { "bookingClass": "H", "fareBasis": "HOW", "baseFare": 320, "baggageAllowance": "23KG" },
+      { "bookingClass": "K", "fareBasis": "KOW", "baseFare": 250, "baggageAllowance": "20KG" }
+    ],
+    "taxes": [
+      { "code": "YQ", "amount": 120, "descriptionAr": "رسم وقود (Fuel Surcharge)" },
+      { "code": "XT", "amount": 85, "descriptionAr": "ضرائب ورسوم مطارات متنوعة" }
+    ]
+  },
+  {
+    "origin": "CAI",
+    "destination": "JED",
+    "currency": "USD",
+    "fares": [
+      { "bookingClass": "F", "fareBasis": "FOW", "baseFare": 900, "baggageAllowance": "40KG" },
+      { "bookingClass": "A", "fareBasis": "AOW", "baseFare": 750, "baggageAllowance": "40KG" },
+      { "bookingClass": "J", "fareBasis": "JOW", "baseFare": 500, "baggageAllowance": "35KG" },
+      { "bookingClass": "C", "fareBasis": "COW", "baseFare": 400, "baggageAllowance": "35KG" },
+      { "bookingClass": "D", "fareBasis": "DOW", "baseFare": 320, "baggageAllowance": "30KG" },
+      { "bookingClass": "Y", "fareBasis": "YOW", "baseFare": 180, "baggageAllowance": "30KG" },
+      { "bookingClass": "B", "fareBasis": "BOW", "baseFare": 150, "baggageAllowance": "30KG" },
+      { "bookingClass": "M", "fareBasis": "MOW", "baseFare": 110, "baggageAllowance": "23KG" },
+      { "bookingClass": "H", "fareBasis": "HOW", "baseFare": 90, "baggageAllowance": "23KG" },
+      { "bookingClass": "K", "fareBasis": "KOW", "baseFare": 70, "baggageAllowance": "20KG" }
+    ],
+    "taxes": [
+      { "code": "YQ", "amount": 25, "descriptionAr": "رسم وقود (Fuel Surcharge)" },
+      { "code": "XT", "amount": 15, "descriptionAr": "ضرائب ورسوم مطارات متنوعة" }
+    ]
+  }
+]

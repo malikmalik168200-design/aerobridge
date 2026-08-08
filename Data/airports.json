@@ -1,0 +1,1444 @@
+[
+  {
+    "iataCode": "CAI",
+    "airportNameEn": "Cairo International Airport",
+    "city": "Cairo",
+    "country": "Egypt",
+    "cityCode": "CAI"
+  },
+  {
+    "iataCode": "DXB",
+    "airportNameEn": "Dubai International Airport",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "cityCode": "DXB"
+  },
+  {
+    "iataCode": "AUH",
+    "airportNameEn": "Abu Dhabi International Airport",
+    "city": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "cityCode": "AUH"
+  },
+  {
+    "iataCode": "DOH",
+    "airportNameEn": "Hamad International Airport",
+    "city": "Doha",
+    "country": "Qatar",
+    "cityCode": "DOH"
+  },
+  {
+    "iataCode": "JED",
+    "airportNameEn": "King Abdulaziz International Airport",
+    "city": "Jeddah",
+    "country": "Saudi Arabia",
+    "cityCode": "JED"
+  },
+  {
+    "iataCode": "RUH",
+    "airportNameEn": "King Khalid International Airport",
+    "city": "Riyadh",
+    "country": "Saudi Arabia",
+    "cityCode": "RUH"
+  },
+  {
+    "iataCode": "KWI",
+    "airportNameEn": "Kuwait International Airport",
+    "city": "Kuwait City",
+    "country": "Kuwait",
+    "cityCode": "KWI"
+  },
+  {
+    "iataCode": "AMM",
+    "airportNameEn": "Queen Alia International Airport",
+    "city": "Amman",
+    "country": "Jordan",
+    "cityCode": "AMM"
+  },
+  {
+    "iataCode": "BEY",
+    "airportNameEn": "Beirut–Rafic Hariri International Airport",
+    "city": "Beirut",
+    "country": "Lebanon",
+    "cityCode": "BEY"
+  },
+  {
+    "iataCode": "CMN",
+    "airportNameEn": "Mohammed V International Airport",
+    "city": "Casablanca",
+    "country": "Morocco",
+    "cityCode": "CAS"
+  },
+  {
+    "iataCode": "TUN",
+    "airportNameEn": "Tunis–Carthage International Airport",
+    "city": "Tunis",
+    "country": "Tunisia",
+    "cityCode": "TUN"
+  },
+  {
+    "iataCode": "MCT",
+    "airportNameEn": "Muscat International Airport",
+    "city": "Muscat",
+    "country": "Oman",
+    "cityCode": "MCT"
+  },
+  {
+    "iataCode": "JFK",
+    "airportNameEn": "John F. Kennedy International Airport",
+    "city": "New York",
+    "country": "United States",
+    "cityCode": "NYC"
+  },
+  {
+    "iataCode": "LHR",
+    "airportNameEn": "Heathrow Airport",
+    "city": "London",
+    "country": "United Kingdom",
+    "cityCode": "LON"
+  },
+  {
+    "iataCode": "CDG",
+    "airportNameEn": "Charles de Gaulle Airport",
+    "city": "Paris",
+    "country": "France",
+    "cityCode": "PAR"
+  },
+  {
+    "iataCode": "FRA",
+    "airportNameEn": "Frankfurt Airport",
+    "city": "Frankfurt",
+    "country": "Germany",
+    "cityCode": "FRA"
+  },
+  {
+    "iataCode": "IST",
+    "airportNameEn": "Istanbul Airport",
+    "city": "Istanbul",
+    "country": "Turkey",
+    "cityCode": "IST"
+  },
+  {
+    "iataCode": "AMS",
+    "airportNameEn": "Amsterdam Airport Schiphol",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "cityCode": "AMS"
+  },
+  {
+    "iataCode": "SIN",
+    "airportNameEn": "Singapore Changi Airport",
+    "city": "Singapore",
+    "country": "Singapore",
+    "cityCode": "SIN"
+  },
+  {
+    "iataCode": "ORD",
+    "airportNameEn": "O'Hare International Airport",
+    "city": "Chicago",
+    "country": "United States",
+    "cityCode": "CHI"
+  },
+  {
+    "iataCode": "SPX",
+    "airportNameEn": "Sphinx International Airport",
+    "city": "Giza",
+    "country": "Egypt",
+    "cityCode": "CAI"
+  },
+  {
+    "iataCode": "ALY",
+    "airportNameEn": "Alexandria International Airport",
+    "city": "Alexandria",
+    "country": "Egypt",
+    "cityCode": "ALY"
+  },
+  {
+    "iataCode": "HRG",
+    "airportNameEn": "Hurghada International Airport",
+    "city": "Hurghada",
+    "country": "Egypt",
+    "cityCode": "HRG"
+  },
+  {
+    "iataCode": "SSH",
+    "airportNameEn": "Sharm El Sheikh International Airport",
+    "city": "Sharm El Sheikh",
+    "country": "Egypt",
+    "cityCode": "SSH"
+  },
+  {
+    "iataCode": "LXR",
+    "airportNameEn": "Luxor International Airport",
+    "city": "Luxor",
+    "country": "Egypt",
+    "cityCode": "LXR"
+  },
+  {
+    "iataCode": "ASW",
+    "airportNameEn": "Aswan International Airport",
+    "city": "Aswan",
+    "country": "Egypt",
+    "cityCode": "ASW"
+  },
+  {
+    "iataCode": "RMF",
+    "airportNameEn": "Marsa Alam International Airport",
+    "city": "Marsa Alam",
+    "country": "Egypt",
+    "cityCode": "RMF"
+  },
+  {
+    "iataCode": "ABS",
+    "airportNameEn": "Abu Simbel Airport",
+    "city": "Abu Simbel",
+    "country": "Egypt",
+    "cityCode": "ABS"
+  },
+  {
+    "iataCode": "SKV",
+    "airportNameEn": "St. Catherine International Airport",
+    "city": "St. Catherine",
+    "country": "Egypt",
+    "cityCode": "SKV"
+  },
+  {
+    "iataCode": "AAC",
+    "airportNameEn": "El Arish International Airport",
+    "city": "El Arish",
+    "country": "Egypt",
+    "cityCode": "AAC"
+  },
+  {
+    "iataCode": "PSD",
+    "airportNameEn": "Port Said Airport",
+    "city": "Port Said",
+    "country": "Egypt",
+    "cityCode": "PSD"
+  },
+  {
+    "iataCode": "ATZ",
+    "airportNameEn": "Assiut Airport",
+    "city": "Assiut",
+    "country": "Egypt",
+    "cityCode": "ATZ"
+  },
+  {
+    "iataCode": "HMB",
+    "airportNameEn": "Sohag International Airport",
+    "city": "Sohag",
+    "country": "Egypt",
+    "cityCode": "HMB"
+  },
+  {
+    "iataCode": "MUH",
+    "airportNameEn": "Marsa Matruh International Airport",
+    "city": "Marsa Matrouh",
+    "country": "Egypt",
+    "cityCode": "MUH"
+  },
+  {
+    "iataCode": "DBB",
+    "airportNameEn": "El Alamein International Airport",
+    "city": "El Dabaa",
+    "country": "Egypt",
+    "cityCode": "DBB"
+  },
+  {
+    "iataCode": "CCE",
+    "airportNameEn": "Capital International Airport",
+    "city": "New Administrative Capital",
+    "country": "Egypt",
+    "cityCode": "CCE"
+  },
+  {
+    "iataCode": "DAK",
+    "airportNameEn": "Dakhla Oasis Airport",
+    "city": "Dakhla Oasis",
+    "country": "Egypt",
+    "cityCode": "DAK"
+  },
+  {
+    "iataCode": "UVL",
+    "airportNameEn": "El Kharga Airport",
+    "city": "El Kharga",
+    "country": "Egypt",
+    "cityCode": "UVL"
+  },
+  {
+    "iataCode": "ELT",
+    "airportNameEn": "El Tor Airport",
+    "city": "El Tor",
+    "country": "Egypt",
+    "cityCode": "ELT"
+  },
+  {
+    "iataCode": "EGH",
+    "airportNameEn": "El Gora Airport",
+    "city": "El Gora",
+    "country": "Egypt",
+    "cityCode": "EGH"
+  },
+  {
+    "iataCode": "GSQ",
+    "airportNameEn": "Sharq El Owainat Airport",
+    "city": "Sharq El Owainat",
+    "country": "Egypt",
+    "cityCode": "GSQ"
+  },
+  {
+    "iataCode": "AUE",
+    "airportNameEn": "Abu Rudeis Airport",
+    "city": "Abu Rudeis",
+    "country": "Egypt",
+    "cityCode": "AUE"
+  },
+  {
+    "iataCode": "RDL",
+    "airportNameEn": "Bardawil International Airport",
+    "city": "El Hassana",
+    "country": "Egypt",
+    "cityCode": "RDL"
+  },
+  {
+    "iataCode": "SHJ",
+    "airportNameEn": "Sharjah International Airport",
+    "city": "Sharjah",
+    "country": "United Arab Emirates",
+    "cityCode": "SHJ"
+  },
+  {
+    "iataCode": "RKT",
+    "airportNameEn": "Ras Al Khaimah International Airport",
+    "city": "Ras Al Khaimah",
+    "country": "United Arab Emirates",
+    "cityCode": "RKT"
+  },
+  {
+    "iataCode": "DWC",
+    "airportNameEn": "Al Maktoum International Airport",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "cityCode": "DXB"
+  },
+  {
+    "iataCode": "FJR",
+    "airportNameEn": "Fujairah International Airport",
+    "city": "Fujairah",
+    "country": "United Arab Emirates",
+    "cityCode": "FJR"
+  },
+  {
+    "iataCode": "AAN",
+    "airportNameEn": "Al Ain International Airport",
+    "city": "Al Ain",
+    "country": "United Arab Emirates",
+    "cityCode": "AAN"
+  },
+  {
+    "iataCode": "DMM",
+    "airportNameEn": "King Fahd International Airport",
+    "city": "Dammam",
+    "country": "Saudi Arabia",
+    "cityCode": "DMM"
+  },
+  {
+    "iataCode": "MED",
+    "airportNameEn": "Prince Mohammad bin Abdulaziz International Airport",
+    "city": "Medina",
+    "country": "Saudi Arabia",
+    "cityCode": "MED"
+  },
+  {
+    "iataCode": "AHB",
+    "airportNameEn": "Abha International Airport",
+    "city": "Abha",
+    "country": "Saudi Arabia",
+    "cityCode": "AHB"
+  },
+  {
+    "iataCode": "TUU",
+    "airportNameEn": "Prince Sultan bin Abdulaziz Airport",
+    "city": "Tabuk",
+    "country": "Saudi Arabia",
+    "cityCode": "TUU"
+  },
+  {
+    "iataCode": "TIF",
+    "airportNameEn": "Taif International Airport",
+    "city": "Taif",
+    "country": "Saudi Arabia",
+    "cityCode": "TIF"
+  },
+  {
+    "iataCode": "GIZ",
+    "airportNameEn": "King Abdullah bin Abdulaziz International Airport",
+    "city": "Jizan",
+    "country": "Saudi Arabia",
+    "cityCode": "GIZ"
+  },
+  {
+    "iataCode": "HAS",
+    "airportNameEn": "Ha'il International Airport",
+    "city": "Ha'il",
+    "country": "Saudi Arabia",
+    "cityCode": "HAS"
+  },
+  {
+    "iataCode": "YNB",
+    "airportNameEn": "Prince Abdul Mohsin Bin Abdulaziz International Airport",
+    "city": "Yanbu",
+    "country": "Saudi Arabia",
+    "cityCode": "YNB"
+  },
+  {
+    "iataCode": "ELQ",
+    "airportNameEn": "Prince Naif bin Abdulaziz International Airport",
+    "city": "Buraidah",
+    "country": "Saudi Arabia",
+    "cityCode": "ELQ"
+  },
+  {
+    "iataCode": "AJF",
+    "airportNameEn": "Al-Jouf International Airport",
+    "city": "Sakakah",
+    "country": "Saudi Arabia",
+    "cityCode": "AJF"
+  },
+  {
+    "iataCode": "HOF",
+    "airportNameEn": "Al-Ahsa International Airport",
+    "city": "Al-Hofuf",
+    "country": "Saudi Arabia",
+    "cityCode": "HOF"
+  },
+  {
+    "iataCode": "NUM",
+    "airportNameEn": "Neom Bay Airport",
+    "city": "Neom",
+    "country": "Saudi Arabia",
+    "cityCode": "NUM"
+  },
+  {
+    "iataCode": "ULH",
+    "airportNameEn": "Al-Ula International Airport",
+    "city": "Al-Ula",
+    "country": "Saudi Arabia",
+    "cityCode": "ULH"
+  },
+  {
+    "iataCode": "RSI",
+    "airportNameEn": "Red Sea International Airport",
+    "city": "Hanak",
+    "country": "Saudi Arabia",
+    "cityCode": "RSI"
+  },
+  {
+    "iataCode": "BAH",
+    "airportNameEn": "Bahrain International Airport",
+    "city": "Manama",
+    "country": "Bahrain",
+    "cityCode": "BAH"
+  },
+  {
+    "iataCode": "SLL",
+    "airportNameEn": "Salalah International Airport",
+    "city": "Salalah",
+    "country": "Oman",
+    "cityCode": "SLL"
+  },
+  {
+    "iataCode": "DQM",
+    "airportNameEn": "Duqm International Airport",
+    "city": "Duqm",
+    "country": "Oman",
+    "cityCode": "DQM"
+  },
+  {
+    "iataCode": "KHS",
+    "airportNameEn": "Khasab Airport",
+    "city": "Khasab",
+    "country": "Oman",
+    "cityCode": "KHS"
+  },
+  {
+    "iataCode": "ADJ",
+    "airportNameEn": "Amman Civil Airport (Marka)",
+    "city": "Amman",
+    "country": "Jordan",
+    "cityCode": "AMM"
+  },
+  {
+    "iataCode": "AQJ",
+    "airportNameEn": "King Hussein International Airport",
+    "city": "Aqaba",
+    "country": "Jordan",
+    "cityCode": "AQJ"
+  },
+  {
+    "iataCode": "DAM",
+    "airportNameEn": "Damascus International Airport",
+    "city": "Damascus",
+    "country": "Syria",
+    "cityCode": "DAM"
+  },
+  {
+    "iataCode": "ALP",
+    "airportNameEn": "Aleppo International Airport",
+    "city": "Aleppo",
+    "country": "Syria",
+    "cityCode": "ALP"
+  },
+  {
+    "iataCode": "LTK",
+    "airportNameEn": "Latakia International Airport",
+    "city": "Latakia",
+    "country": "Syria",
+    "cityCode": "LTK"
+  },
+  {
+    "iataCode": "BGW",
+    "airportNameEn": "Baghdad International Airport",
+    "city": "Baghdad",
+    "country": "Iraq",
+    "cityCode": "BGW"
+  },
+  {
+    "iataCode": "EBL",
+    "airportNameEn": "Erbil International Airport",
+    "city": "Erbil",
+    "country": "Iraq",
+    "cityCode": "EBL"
+  },
+  {
+    "iataCode": "NJF",
+    "airportNameEn": "Al Najaf International Airport",
+    "city": "Najaf",
+    "country": "Iraq",
+    "cityCode": "NJF"
+  },
+  {
+    "iataCode": "BSR",
+    "airportNameEn": "Basra International Airport",
+    "city": "Basra",
+    "country": "Iraq",
+    "cityCode": "BSR"
+  },
+  {
+    "iataCode": "SAH",
+    "airportNameEn": "Sana'a International Airport",
+    "city": "Sana'a",
+    "country": "Yemen",
+    "cityCode": "SAH"
+  },
+  {
+    "iataCode": "ADE",
+    "airportNameEn": "Aden International Airport",
+    "city": "Aden",
+    "country": "Yemen",
+    "cityCode": "ADE"
+  },
+  {
+    "iataCode": "TLV",
+    "airportNameEn": "Ben Gurion Airport",
+    "city": "Tel Aviv",
+    "country": "Israel",
+    "cityCode": "TLV"
+  },
+  {
+    "iataCode": "KRT",
+    "airportNameEn": "Khartoum International Airport",
+    "city": "Khartoum",
+    "country": "Sudan",
+    "cityCode": "KRT"
+  },
+  {
+    "iataCode": "TIP",
+    "airportNameEn": "Tripoli International Airport",
+    "city": "Tripoli",
+    "country": "Libya",
+    "cityCode": "TIP"
+  },
+  {
+    "iataCode": "BEN",
+    "airportNameEn": "Benina International Airport",
+    "city": "Benghazi",
+    "country": "Libya",
+    "cityCode": "BEN"
+  },
+  {
+    "iataCode": "SAW",
+    "airportNameEn": "Istanbul Sabiha Gökçen Airport",
+    "city": "Istanbul",
+    "country": "Turkey",
+    "cityCode": "IST"
+  },
+  {
+    "iataCode": "ESB",
+    "airportNameEn": "Esenboğa International Airport",
+    "city": "Ankara",
+    "country": "Turkey",
+    "cityCode": "ESB"
+  },
+  {
+    "iataCode": "ADB",
+    "airportNameEn": "Adnan Menderes Airport",
+    "city": "Izmir",
+    "country": "Turkey",
+    "cityCode": "ADB"
+  },
+  {
+    "iataCode": "AYT",
+    "airportNameEn": "Antalya Airport",
+    "city": "Antalya",
+    "country": "Turkey",
+    "cityCode": "AYT"
+  },
+  {
+    "iataCode": "ALG",
+    "airportNameEn": "Houari Boumediene Airport",
+    "city": "Algiers",
+    "country": "Algeria",
+    "cityCode": "ALG"
+  },
+  {
+    "iataCode": "RAK",
+    "airportNameEn": "Marrakesh Menara Airport",
+    "city": "Marrakech",
+    "country": "Morocco",
+    "cityCode": "RAK"
+  },
+  {
+    "iataCode": "RBA",
+    "airportNameEn": "Rabat–Salé Airport",
+    "city": "Rabat",
+    "country": "Morocco",
+    "cityCode": "RBA"
+  },
+  {
+    "iataCode": "AGA",
+    "airportNameEn": "Al Massira Airport",
+    "city": "Agadir",
+    "country": "Morocco",
+    "cityCode": "AGA"
+  },
+  {
+    "iataCode": "TNG",
+    "airportNameEn": "Ibn Battouta Airport",
+    "city": "Tangier",
+    "country": "Morocco",
+    "cityCode": "TNG"
+  },
+  {
+    "iataCode": "DJE",
+    "airportNameEn": "Djerba–Zarzis International Airport",
+    "city": "Djerba",
+    "country": "Tunisia",
+    "cityCode": "DJE"
+  },
+  {
+    "iataCode": "SFA",
+    "airportNameEn": "Sfax–Thyna International Airport",
+    "city": "Sfax",
+    "country": "Tunisia",
+    "cityCode": "SFA"
+  },
+  {
+    "iataCode": "ADD",
+    "airportNameEn": "Addis Ababa Bole International Airport",
+    "city": "Addis Ababa",
+    "country": "Ethiopia",
+    "cityCode": "ADD"
+  },
+  {
+    "iataCode": "NBO",
+    "airportNameEn": "Jomo Kenyatta International Airport",
+    "city": "Nairobi",
+    "country": "Kenya",
+    "cityCode": "NBO"
+  },
+  {
+    "iataCode": "LOS",
+    "airportNameEn": "Murtala Muhammed International Airport",
+    "city": "Lagos",
+    "country": "Nigeria",
+    "cityCode": "LOS"
+  },
+  {
+    "iataCode": "ABV",
+    "airportNameEn": "Nnamdi Azikiwe International Airport",
+    "city": "Abuja",
+    "country": "Nigeria",
+    "cityCode": "ABV"
+  },
+  {
+    "iataCode": "JNB",
+    "airportNameEn": "O.R. Tambo International Airport",
+    "city": "Johannesburg",
+    "country": "South Africa",
+    "cityCode": "JNB"
+  },
+  {
+    "iataCode": "CPT",
+    "airportNameEn": "Cape Town International Airport",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "cityCode": "CPT"
+  },
+  {
+    "iataCode": "DUR",
+    "airportNameEn": "King Shaka International Airport",
+    "city": "Durban",
+    "country": "South Africa",
+    "cityCode": "DUR"
+  },
+  {
+    "iataCode": "DAR",
+    "airportNameEn": "Julius Nyerere International Airport",
+    "city": "Dar es Salaam",
+    "country": "Tanzania",
+    "cityCode": "DAR"
+  },
+  {
+    "iataCode": "EBB",
+    "airportNameEn": "Entebbe International Airport",
+    "city": "Entebbe",
+    "country": "Uganda",
+    "cityCode": "EBB"
+  },
+  {
+    "iataCode": "ACC",
+    "airportNameEn": "Kotoka International Airport",
+    "city": "Accra",
+    "country": "Ghana",
+    "cityCode": "ACC"
+  },
+  {
+    "iataCode": "DSS",
+    "airportNameEn": "Blaise Diagne International Airport",
+    "city": "Dakar",
+    "country": "Senegal",
+    "cityCode": "DSS"
+  },
+  {
+    "iataCode": "KGL",
+    "airportNameEn": "Kigali International Airport",
+    "city": "Kigali",
+    "country": "Rwanda",
+    "cityCode": "KGL"
+  },
+  {
+    "iataCode": "MRU",
+    "airportNameEn": "Sir Seewoosagur Ramgoolam International Airport",
+    "city": "Mauritius",
+    "country": "Mauritius",
+    "cityCode": "MRU"
+  },
+  {
+    "iataCode": "SEZ",
+    "airportNameEn": "Seychelles International Airport",
+    "city": "Mahé",
+    "country": "Seychelles",
+    "cityCode": "SEZ"
+  },
+  {
+    "iataCode": "ABJ",
+    "airportNameEn": "Félix-Houphouët-Boigny International Airport",
+    "city": "Abidjan",
+    "country": "Ivory Coast",
+    "cityCode": "ABJ"
+  },
+  {
+    "iataCode": "LUN",
+    "airportNameEn": "Kenneth Kaunda International Airport",
+    "city": "Lusaka",
+    "country": "Zambia",
+    "cityCode": "LUN"
+  },
+  {
+    "iataCode": "HRE",
+    "airportNameEn": "Robert Gabriel Mugabe International Airport",
+    "city": "Harare",
+    "country": "Zimbabwe",
+    "cityCode": "HRE"
+  },
+  {
+    "iataCode": "MPM",
+    "airportNameEn": "Maputo International Airport",
+    "city": "Maputo",
+    "country": "Mozambique",
+    "cityCode": "MPM"
+  },
+  {
+    "iataCode": "JIB",
+    "airportNameEn": "Djibouti–Ambouli International Airport",
+    "city": "Djibouti",
+    "country": "Djibouti",
+    "cityCode": "JIB"
+  },
+  {
+    "iataCode": "DLA",
+    "airportNameEn": "Douala International Airport",
+    "city": "Douala",
+    "country": "Cameroon",
+    "cityCode": "DLA"
+  },
+  {
+    "iataCode": "MAD",
+    "airportNameEn": "Adolfo Suárez Madrid–Barajas Airport",
+    "city": "Madrid",
+    "country": "Spain",
+    "cityCode": "MAD"
+  },
+  {
+    "iataCode": "BCN",
+    "airportNameEn": "Barcelona–El Prat Airport",
+    "city": "Barcelona",
+    "country": "Spain",
+    "cityCode": "BCN"
+  },
+  {
+    "iataCode": "FCO",
+    "airportNameEn": "Leonardo da Vinci–Fiumicino Airport",
+    "city": "Rome",
+    "country": "Italy",
+    "cityCode": "ROM"
+  },
+  {
+    "iataCode": "MXP",
+    "airportNameEn": "Milan Malpensa Airport",
+    "city": "Milan",
+    "country": "Italy",
+    "cityCode": "MIL"
+  },
+  {
+    "iataCode": "MUC",
+    "airportNameEn": "Munich Airport",
+    "city": "Munich",
+    "country": "Germany",
+    "cityCode": "MUC"
+  },
+  {
+    "iataCode": "BER",
+    "airportNameEn": "Berlin Brandenburg Airport",
+    "city": "Berlin",
+    "country": "Germany",
+    "cityCode": "BER"
+  },
+  {
+    "iataCode": "LGW",
+    "airportNameEn": "London Gatwick Airport",
+    "city": "London",
+    "country": "United Kingdom",
+    "cityCode": "LON"
+  },
+  {
+    "iataCode": "MAN",
+    "airportNameEn": "Manchester Airport",
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "cityCode": "MAN"
+  },
+  {
+    "iataCode": "ZRH",
+    "airportNameEn": "Zurich Airport",
+    "city": "Zurich",
+    "country": "Switzerland",
+    "cityCode": "ZRH"
+  },
+  {
+    "iataCode": "GVA",
+    "airportNameEn": "Geneva Airport",
+    "city": "Geneva",
+    "country": "Switzerland",
+    "cityCode": "GVA"
+  },
+  {
+    "iataCode": "VIE",
+    "airportNameEn": "Vienna International Airport",
+    "city": "Vienna",
+    "country": "Austria",
+    "cityCode": "VIE"
+  },
+  {
+    "iataCode": "BRU",
+    "airportNameEn": "Brussels Airport",
+    "city": "Brussels",
+    "country": "Belgium",
+    "cityCode": "BRU"
+  },
+  {
+    "iataCode": "LIS",
+    "airportNameEn": "Humberto Delgado Airport",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "cityCode": "LIS"
+  },
+  {
+    "iataCode": "ATH",
+    "airportNameEn": "Athens International Airport",
+    "city": "Athens",
+    "country": "Greece",
+    "cityCode": "ATH"
+  },
+  {
+    "iataCode": "SVO",
+    "airportNameEn": "Sheremetyevo International Airport",
+    "city": "Moscow",
+    "country": "Russia",
+    "cityCode": "MOW"
+  },
+  {
+    "iataCode": "LED",
+    "airportNameEn": "Pulkovo Airport",
+    "city": "St. Petersburg",
+    "country": "Russia",
+    "cityCode": "LED"
+  },
+  {
+    "iataCode": "WAW",
+    "airportNameEn": "Warsaw Chopin Airport",
+    "city": "Warsaw",
+    "country": "Poland",
+    "cityCode": "WAW"
+  },
+  {
+    "iataCode": "PRG",
+    "airportNameEn": "Václav Havel Airport Prague",
+    "city": "Prague",
+    "country": "Czech Republic",
+    "cityCode": "PRG"
+  },
+  {
+    "iataCode": "BUD",
+    "airportNameEn": "Budapest Ferenc Liszt International Airport",
+    "city": "Budapest",
+    "country": "Hungary",
+    "cityCode": "BUD"
+  },
+  {
+    "iataCode": "OTP",
+    "airportNameEn": "Henri Coandă International Airport",
+    "city": "Bucharest",
+    "country": "Romania",
+    "cityCode": "BUH"
+  },
+  {
+    "iataCode": "ARN",
+    "airportNameEn": "Stockholm Arlanda Airport",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "cityCode": "STO"
+  },
+  {
+    "iataCode": "OSL",
+    "airportNameEn": "Oslo Airport",
+    "city": "Oslo",
+    "country": "Norway",
+    "cityCode": "OSL"
+  },
+  {
+    "iataCode": "CPH",
+    "airportNameEn": "Copenhagen Airport",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "cityCode": "CPH"
+  },
+  {
+    "iataCode": "HEL",
+    "airportNameEn": "Helsinki-Vantaa Airport",
+    "city": "Helsinki",
+    "country": "Finland",
+    "cityCode": "HEL"
+  },
+  {
+    "iataCode": "DUB",
+    "airportNameEn": "Dublin Airport",
+    "city": "Dublin",
+    "country": "Ireland",
+    "cityCode": "DUB"
+  },
+  {
+    "iataCode": "KBP",
+    "airportNameEn": "Boryspil International Airport",
+    "city": "Kyiv",
+    "country": "Ukraine",
+    "cityCode": "IEV"
+  },
+  {
+    "iataCode": "BEG",
+    "airportNameEn": "Belgrade Nikola Tesla Airport",
+    "city": "Belgrade",
+    "country": "Serbia",
+    "cityCode": "BEG"
+  },
+  {
+    "iataCode": "ZAG",
+    "airportNameEn": "Zagreb Airport",
+    "city": "Zagreb",
+    "country": "Croatia",
+    "cityCode": "ZAG"
+  },
+  {
+    "iataCode": "SOF",
+    "airportNameEn": "Sofia Airport",
+    "city": "Sofia",
+    "country": "Bulgaria",
+    "cityCode": "SOF"
+  },
+  {
+    "iataCode": "NCE",
+    "airportNameEn": "Nice Côte d'Azur Airport",
+    "city": "Nice",
+    "country": "France",
+    "cityCode": "NCE"
+  },
+  {
+    "iataCode": "LAX",
+    "airportNameEn": "Los Angeles International Airport",
+    "city": "Los Angeles",
+    "country": "United States",
+    "cityCode": "LAX"
+  },
+  {
+    "iataCode": "SFO",
+    "airportNameEn": "San Francisco International Airport",
+    "city": "San Francisco",
+    "country": "United States",
+    "cityCode": "SFO"
+  },
+  {
+    "iataCode": "MIA",
+    "airportNameEn": "Miami International Airport",
+    "city": "Miami",
+    "country": "United States",
+    "cityCode": "MIA"
+  },
+  {
+    "iataCode": "ATL",
+    "airportNameEn": "Hartsfield–Jackson Atlanta International Airport",
+    "city": "Atlanta",
+    "country": "United States",
+    "cityCode": "ATL"
+  },
+  {
+    "iataCode": "IAD",
+    "airportNameEn": "Washington Dulles International Airport",
+    "city": "Washington",
+    "country": "United States",
+    "cityCode": "WAS"
+  },
+  {
+    "iataCode": "BOS",
+    "airportNameEn": "Logan International Airport",
+    "city": "Boston",
+    "country": "United States",
+    "cityCode": "BOS"
+  },
+  {
+    "iataCode": "IAH",
+    "airportNameEn": "George Bush Intercontinental Airport",
+    "city": "Houston",
+    "country": "United States",
+    "cityCode": "IAH"
+  },
+  {
+    "iataCode": "DFW",
+    "airportNameEn": "Dallas/Fort Worth International Airport",
+    "city": "Dallas",
+    "country": "United States",
+    "cityCode": "DFW"
+  },
+  {
+    "iataCode": "SEA",
+    "airportNameEn": "Seattle–Tacoma International Airport",
+    "city": "Seattle",
+    "country": "United States",
+    "cityCode": "SEA"
+  },
+  {
+    "iataCode": "LAS",
+    "airportNameEn": "Harry Reid International Airport",
+    "city": "Las Vegas",
+    "country": "United States",
+    "cityCode": "LAS"
+  },
+  {
+    "iataCode": "EWR",
+    "airportNameEn": "Newark Liberty International Airport",
+    "city": "Newark",
+    "country": "United States",
+    "cityCode": "NYC"
+  },
+  {
+    "iataCode": "YYZ",
+    "airportNameEn": "Toronto Pearson International Airport",
+    "city": "Toronto",
+    "country": "Canada",
+    "cityCode": "YYZ"
+  },
+  {
+    "iataCode": "YVR",
+    "airportNameEn": "Vancouver International Airport",
+    "city": "Vancouver",
+    "country": "Canada",
+    "cityCode": "YVR"
+  },
+  {
+    "iataCode": "YUL",
+    "airportNameEn": "Montréal–Trudeau International Airport",
+    "city": "Montreal",
+    "country": "Canada",
+    "cityCode": "YUL"
+  },
+  {
+    "iataCode": "MEX",
+    "airportNameEn": "Mexico City International Airport",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "cityCode": "MEX"
+  },
+  {
+    "iataCode": "CUN",
+    "airportNameEn": "Cancún International Airport",
+    "city": "Cancún",
+    "country": "Mexico",
+    "cityCode": "CUN"
+  },
+  {
+    "iataCode": "PTY",
+    "airportNameEn": "Tocumen International Airport",
+    "city": "Panama City",
+    "country": "Panama",
+    "cityCode": "PTY"
+  },
+  {
+    "iataCode": "BOG",
+    "airportNameEn": "El Dorado International Airport",
+    "city": "Bogotá",
+    "country": "Colombia",
+    "cityCode": "BOG"
+  },
+  {
+    "iataCode": "LIM",
+    "airportNameEn": "Jorge Chávez International Airport",
+    "city": "Lima",
+    "country": "Peru",
+    "cityCode": "LIM"
+  },
+  {
+    "iataCode": "GRU",
+    "airportNameEn": "São Paulo–Guarulhos International Airport",
+    "city": "São Paulo",
+    "country": "Brazil",
+    "cityCode": "SAO"
+  },
+  {
+    "iataCode": "GIG",
+    "airportNameEn": "Rio de Janeiro–Galeão International Airport",
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "cityCode": "RIO"
+  },
+  {
+    "iataCode": "EZE",
+    "airportNameEn": "Ministro Pistarini International Airport",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "cityCode": "BUE"
+  },
+  {
+    "iataCode": "SCL",
+    "airportNameEn": "Arturo Merino Benítez International Airport",
+    "city": "Santiago",
+    "country": "Chile",
+    "cityCode": "SCL"
+  },
+  {
+    "iataCode": "CCS",
+    "airportNameEn": "Simón Bolívar International Airport",
+    "city": "Caracas",
+    "country": "Venezuela",
+    "cityCode": "CCS"
+  },
+  {
+    "iataCode": "NRT",
+    "airportNameEn": "Narita International Airport",
+    "city": "Tokyo",
+    "country": "Japan",
+    "cityCode": "TYO"
+  },
+  {
+    "iataCode": "HND",
+    "airportNameEn": "Haneda Airport",
+    "city": "Tokyo",
+    "country": "Japan",
+    "cityCode": "TYO"
+  },
+  {
+    "iataCode": "KIX",
+    "airportNameEn": "Kansai International Airport",
+    "city": "Osaka",
+    "country": "Japan",
+    "cityCode": "OSA"
+  },
+  {
+    "iataCode": "ICN",
+    "airportNameEn": "Incheon International Airport",
+    "city": "Seoul",
+    "country": "South Korea",
+    "cityCode": "SEL"
+  },
+  {
+    "iataCode": "PEK",
+    "airportNameEn": "Beijing Capital International Airport",
+    "city": "Beijing",
+    "country": "China",
+    "cityCode": "BJS"
+  },
+  {
+    "iataCode": "PVG",
+    "airportNameEn": "Shanghai Pudong International Airport",
+    "city": "Shanghai",
+    "country": "China",
+    "cityCode": "SHA"
+  },
+  {
+    "iataCode": "CAN",
+    "airportNameEn": "Guangzhou Baiyun International Airport",
+    "city": "Guangzhou",
+    "country": "China",
+    "cityCode": "CAN"
+  },
+  {
+    "iataCode": "SZX",
+    "airportNameEn": "Shenzhen Bao'an International Airport",
+    "city": "Shenzhen",
+    "country": "China",
+    "cityCode": "SZX"
+  },
+  {
+    "iataCode": "HKG",
+    "airportNameEn": "Hong Kong International Airport",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "cityCode": "HKG"
+  },
+  {
+    "iataCode": "TPE",
+    "airportNameEn": "Taiwan Taoyuan International Airport",
+    "city": "Taipei",
+    "country": "Taiwan",
+    "cityCode": "TPE"
+  },
+  {
+    "iataCode": "BKK",
+    "airportNameEn": "Suvarnabhumi Airport",
+    "city": "Bangkok",
+    "country": "Thailand",
+    "cityCode": "BKK"
+  },
+  {
+    "iataCode": "DMK",
+    "airportNameEn": "Don Mueang International Airport",
+    "city": "Bangkok",
+    "country": "Thailand",
+    "cityCode": "BKK"
+  },
+  {
+    "iataCode": "KUL",
+    "airportNameEn": "Kuala Lumpur International Airport",
+    "city": "Kuala Lumpur",
+    "country": "Malaysia",
+    "cityCode": "KUL"
+  },
+  {
+    "iataCode": "CGK",
+    "airportNameEn": "Soekarno–Hatta International Airport",
+    "city": "Jakarta",
+    "country": "Indonesia",
+    "cityCode": "JKT"
+  },
+  {
+    "iataCode": "MNL",
+    "airportNameEn": "Ninoy Aquino International Airport",
+    "city": "Manila",
+    "country": "Philippines",
+    "cityCode": "MNL"
+  },
+  {
+    "iataCode": "SGN",
+    "airportNameEn": "Tan Son Nhat International Airport",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "cityCode": "SGN"
+  },
+  {
+    "iataCode": "HAN",
+    "airportNameEn": "Noi Bai International Airport",
+    "city": "Hanoi",
+    "country": "Vietnam",
+    "cityCode": "HAN"
+  },
+  {
+    "iataCode": "DEL",
+    "airportNameEn": "Indira Gandhi International Airport",
+    "city": "Delhi",
+    "country": "India",
+    "cityCode": "DEL"
+  },
+  {
+    "iataCode": "BOM",
+    "airportNameEn": "Chhatrapati Shivaji Maharaj International Airport",
+    "city": "Mumbai",
+    "country": "India",
+    "cityCode": "BOM"
+  },
+  {
+    "iataCode": "BLR",
+    "airportNameEn": "Kempegowda International Airport",
+    "city": "Bangalore",
+    "country": "India",
+    "cityCode": "BLR"
+  },
+  {
+    "iataCode": "MAA",
+    "airportNameEn": "Chennai International Airport",
+    "city": "Chennai",
+    "country": "India",
+    "cityCode": "MAA"
+  },
+  {
+    "iataCode": "CCU",
+    "airportNameEn": "Netaji Subhas Chandra Bose International Airport",
+    "city": "Kolkata",
+    "country": "India",
+    "cityCode": "CCU"
+  },
+  {
+    "iataCode": "HYD",
+    "airportNameEn": "Rajiv Gandhi International Airport",
+    "city": "Hyderabad",
+    "country": "India",
+    "cityCode": "HYD"
+  },
+  {
+    "iataCode": "DAC",
+    "airportNameEn": "Hazrat Shahjalal International Airport",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "cityCode": "DAC"
+  },
+  {
+    "iataCode": "CMB",
+    "airportNameEn": "Bandaranaike International Airport",
+    "city": "Colombo",
+    "country": "Sri Lanka",
+    "cityCode": "CMB"
+  },
+  {
+    "iataCode": "KTM",
+    "airportNameEn": "Tribhuvan International Airport",
+    "city": "Kathmandu",
+    "country": "Nepal",
+    "cityCode": "KTM"
+  },
+  {
+    "iataCode": "ISB",
+    "airportNameEn": "Islamabad International Airport",
+    "city": "Islamabad",
+    "country": "Pakistan",
+    "cityCode": "ISB"
+  },
+  {
+    "iataCode": "KHI",
+    "airportNameEn": "Jinnah International Airport",
+    "city": "Karachi",
+    "country": "Pakistan",
+    "cityCode": "KHI"
+  },
+  {
+    "iataCode": "LHE",
+    "airportNameEn": "Allama Iqbal International Airport",
+    "city": "Lahore",
+    "country": "Pakistan",
+    "cityCode": "LHE"
+  },
+  {
+    "iataCode": "ALA",
+    "airportNameEn": "Almaty International Airport",
+    "city": "Almaty",
+    "country": "Kazakhstan",
+    "cityCode": "ALA"
+  },
+  {
+    "iataCode": "TAS",
+    "airportNameEn": "Islam Karimov Tashkent International Airport",
+    "city": "Tashkent",
+    "country": "Uzbekistan",
+    "cityCode": "TAS"
+  },
+  {
+    "iataCode": "GYD",
+    "airportNameEn": "Heydar Aliyev International Airport",
+    "city": "Baku",
+    "country": "Azerbaijan",
+    "cityCode": "GYD"
+  },
+  {
+    "iataCode": "TBS",
+    "airportNameEn": "Tbilisi International Airport",
+    "city": "Tbilisi",
+    "country": "Georgia",
+    "cityCode": "TBS"
+  },
+  {
+    "iataCode": "EVN",
+    "airportNameEn": "Zvartnots International Airport",
+    "city": "Yerevan",
+    "country": "Armenia",
+    "cityCode": "EVN"
+  },
+  {
+    "iataCode": "SYD",
+    "airportNameEn": "Sydney Kingsford Smith Airport",
+    "city": "Sydney",
+    "country": "Australia",
+    "cityCode": "SYD"
+  },
+  {
+    "iataCode": "MEL",
+    "airportNameEn": "Melbourne Airport",
+    "city": "Melbourne",
+    "country": "Australia",
+    "cityCode": "MEL"
+  },
+  {
+    "iataCode": "BNE",
+    "airportNameEn": "Brisbane Airport",
+    "city": "Brisbane",
+    "country": "Australia",
+    "cityCode": "BNE"
+  },
+  {
+    "iataCode": "PER",
+    "airportNameEn": "Perth Airport",
+    "city": "Perth",
+    "country": "Australia",
+    "cityCode": "PER"
+  },
+  {
+    "iataCode": "AKL",
+    "airportNameEn": "Auckland Airport",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "cityCode": "AKL"
+  },
+  {
+    "iataCode": "NAN",
+    "airportNameEn": "Nadi International Airport",
+    "city": "Nadi",
+    "country": "Fiji",
+    "cityCode": "NAN"
+  }
+    ]

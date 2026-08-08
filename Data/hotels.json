@@ -1,0 +1,13 @@
+[
+  { "cityCode": "CAI", "hotelId": "H001", "chainCode": "EM", "hotelName": "CAIRO MARRIOTT HOTEL & OMAR KHAYYAM CASINO", "category": 5, "roomType": "STD", "nightlyRate": 145, "currency": "USD" },
+  { "cityCode": "CAI", "hotelId": "H002", "chainCode": "HL", "hotelName": "HILTON CAIRO ZAMALEK RESIDENCES", "category": 4, "roomType": "STD", "nightlyRate": 95, "currency": "USD" },
+  { "cityCode": "CAI", "hotelId": "H003", "chainCode": "RT", "hotelName": "IBIS CAIRO NASR CITY", "category": 3, "roomType": "STD", "nightlyRate": 55, "currency": "USD" },
+
+  { "cityCode": "DXB", "hotelId": "H004", "chainCode": "EM", "hotelName": "JW MARRIOTT MARQUIS DUBAI", "category": 5, "roomType": "STD", "nightlyRate": 210, "currency": "USD" },
+  { "cityCode": "DXB", "hotelId": "H005", "chainCode": "HL", "hotelName": "HILTON DUBAI JUMEIRAH", "category": 5, "roomType": "STD", "nightlyRate": 180, "currency": "USD" },
+  { "cityCode": "DXB", "hotelId": "H006", "chainCode": "RT", "hotelName": "NOVOTEL DUBAI AL BARSHA", "category": 4, "roomType": "STD", "nightlyRate": 130, "currency": "USD" },
+
+  { "cityCode": "JED", "hotelId": "H007", "chainCode": "HL", "hotelName": "HILTON JEDDAH", "category": 5, "roomType": "STD", "nightlyRate": 160, "currency": "USD" },
+  { "cityCode": "JED", "hotelId": "H008", "chainCode": "RT", "hotelName": "NOVOTEL JEDDAH TAHLIA STREET", "category": 4, "roomType": "STD", "nightlyRate": 100, "currency": "USD" },
+  { "cityCode": "JED", "hotelId": "H009", "chainCode": "RT", "hotelName": "IBIS JEDDAH CITY CENTER", "category": 3, "roomType": "STD", "nightlyRate": 65, "currency": "USD" }
+]

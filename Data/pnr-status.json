@@ -1,0 +1,22 @@
+[
+  { "code": "SS", "category": "طلب مباشر (Request)", "descriptionAr": "طلب بيع مباشر من شاشة العرض (AN)، أول خطوة بتتحول بعدين لحالة HK لو اتأكدت." },
+  { "code": "NN", "category": "طلب (Request)", "descriptionAr": "طلب حجز محتاج رد من شركة الطيران، مش تأكيد فوري — بيستخدم مع الشركات اللي مش متصلة مباشرة." },
+  { "code": "LL", "category": "طلب (Request)", "descriptionAr": "طلب انتظار (Waitlist) على سطر مقفول، يعني مفيش مقاعد لكن الوكيل طلب يتحط على القائمة." },
+  { "code": "HK", "category": "رد/حالة (Status)", "descriptionAr": "تم التأكيد (Holds Confirmed) — الحالة اللي كل وكيل بيدور عليها، يعني المقعد مأكد فعليًا." },
+  { "code": "HL", "category": "رد/حالة (Status)", "descriptionAr": "على قائمة الانتظار (Holds Waitlisted) — الطلب اتسجل بس لسه مأكدش." },
+  { "code": "HN", "category": "رد/حالة (Status)", "descriptionAr": "الطلب اتبعت لشركة الطيران ولسه مفيش رد (Have – Need)، بيستخدم غالبًا في الحجوزات غير المباشرة." },
+  { "code": "HX", "category": "رد/حالة (Status)", "descriptionAr": "تم إلغاء السطر (Have Cancelled) — إما شركة الطيران ألغت الرحلة أو الوكيل ألغى القطاع." },
+  { "code": "KK", "category": "رد/حالة (Status)", "descriptionAr": "تأكيد (Confirming) — بيرجع كرد على طلب انتظار سابق كان اتصعّد لشركة الطيران." },
+  { "code": "KL", "category": "رد/حالة (Status)", "descriptionAr": "اتأكد من قائمة الانتظار (Confirmed from Waitlist) — كان HL أو LL وبعدين اتحول لتأكيد." },
+  { "code": "NO", "category": "رد/حالة (Status)", "descriptionAr": "لسه مفيش أي إجراء اتاخد (No Action Taken) على الطلب." },
+  { "code": "RR", "category": "رد/حالة (Status)", "descriptionAr": "تم إعادة التأكيد (Reconfirmed) — مطلوب تاريخيًا في بعض الرحلات الدولية بعد فترة معينة." },
+  { "code": "SC", "category": "رد/حالة (Status)", "descriptionAr": "تغيير في جدول الرحلة (Schedule Change) من شركة الطيران — وقت أو تاريخ الرحلة اتغير." },
+  { "code": "TK", "category": "عنصر PNR (مش كود حالة قطاع)", "descriptionAr": "دي مش كود حالة مقعد زي الباقي، دي عنصر ترتيب التذكرة (Ticketing Arrangement) — بيحدد آخر موعد لإصدار التذكرة، زي عنصر RF بالظبط." },
+  { "code": "UC", "category": "رد/حالة (Status)", "descriptionAr": "تعذر التنفيذ وتم الإلغاء (Unable, Have Cancelled) — شركة الطيران رفضت الطلب وألغته." },
+  { "code": "UN", "category": "رد/حالة (Status)", "descriptionAr": "تعذر التأكيد لأن الرحلة مقفولة (Unable to Confirm) — الطلب اتقفل من غير تأكيد." },
+  { "code": "UU", "category": "رد/حالة (Status)", "descriptionAr": "تعذر التأكيد وتم وضعه على الانتظار بدلًا منه (Unable, Have Waitlisted)." },
+  { "code": "WK", "category": "رد/حالة (Status)", "descriptionAr": "تأكيد من قائمة الانتظار بعد تغيير جدول (Waitlisted → Confirmed بسبب Schedule Change)." },
+  { "code": "WL", "category": "رد/حالة (Status)", "descriptionAr": "على قائمة الانتظار (Waitlisted) — نفس معنى HL تقريبًا، بيستخدم في سياقات تانية زي SSR." },
+  { "code": "RQ", "category": "رد/حالة SSR", "descriptionAr": "طلب قيد الانتظار (Request Pending) — بيستخدم غالبًا مع الخدمات الخاصة (SSR) زي طلب كرسي متحرك أو أكل معين، لسه محتاج رد." },
+  { "code": "GK", "category": "طلب نادر (Request)", "descriptionAr": "تأكيد بدون الرجوع لشركة الطيران (Confirm without Reference) — نادر الاستخدام، الوكيل بيأكد على مسؤوليته." }
+]

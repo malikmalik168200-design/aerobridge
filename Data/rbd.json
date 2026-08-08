@@ -1,0 +1,62 @@
+[
+  {
+    "code": "F",
+    "cabin": "First",
+    "fareType": "Full Fare",
+    "descriptionAr": "الدرجة الأولى بسعرها الكامل، أعلى فئة خدمة وأعلى مرونة في التغيير والاسترجاع."
+  },
+  {
+    "code": "A",
+    "cabin": "First",
+    "fareType": "Discounted",
+    "descriptionAr": "الدرجة الأولى بسعر مخفض، نفس مستوى الخدمة لكن بشروط تغيير واسترجاع أقل مرونة من F."
+  },
+  {
+    "code": "J",
+    "cabin": "Business",
+    "fareType": "Full Fare",
+    "descriptionAr": "درجة رجال الأعمال بسعرها الكامل، مرونة عالية جدًا في التغيير والاسترجاع."
+  },
+  {
+    "code": "C",
+    "cabin": "Business",
+    "fareType": "Standard",
+    "descriptionAr": "درجة رجال الأعمال بسعر قياسي أقل من J، مرونة متوسطة إلى عالية."
+  },
+  {
+    "code": "D",
+    "cabin": "Business",
+    "fareType": "Discounted",
+    "descriptionAr": "درجة رجال الأعمال بسعر مخفض، مرونة أقل من C وJ."
+  },
+  {
+    "code": "Y",
+    "cabin": "Economy",
+    "fareType": "Full Fare",
+    "descriptionAr": "الدرجة السياحية بسعرها الكامل، أعلى مرونة داخل الدرجة السياحية."
+  },
+  {
+    "code": "B",
+    "cabin": "Economy",
+    "fareType": "Discounted",
+    "descriptionAr": "الدرجة السياحية بسعر مخفض عن Y، شروط تغيير أكثر تقييدًا."
+  },
+  {
+    "code": "M",
+    "cabin": "Economy",
+    "fareType": "Discounted",
+    "descriptionAr": "الدرجة السياحية بسعر مخفض أكثر من B، غالبًا مرتبطة بحد أدنى لمدة الإقامة."
+  },
+  {
+    "code": "H",
+    "cabin": "Economy",
+    "fareType": "Discounted",
+    "descriptionAr": "الدرجة السياحية بتخفيض إضافي، شروط حجز وإلغاء أكثر تقييدًا."
+  },
+  {
+    "code": "K",
+    "cabin": "Economy",
+    "fareType": "Deep Discount",
+    "descriptionAr": "أرخص تسعيرة متاحة غالبًا داخل الدرجة السياحية، أقل مرونة في التغيير والاسترجاع."
+  }
+]

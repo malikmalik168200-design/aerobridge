@@ -1,0 +1,90 @@
+{
+  "queues": [
+    {
+      "queueNumber": 1,
+      "category": 0,
+      "nameAr": "طلبات عامة",
+      "nameEn": "GENERAL REQUESTS",
+      "pnrs": [
+        {
+          "recordLocator": "XJKPRQ",
+          "passengerName": "SALEH/AHMED MR",
+          "segmentSummary": "MS 785 Y  15JUL  CAI DXB  HK1  14:20 17:05",
+          "note": "SEAT REQUEST PENDING"
+        },
+        {
+          "recordLocator": "PLVNBW",
+          "passengerName": "YOUSSEF/LAYLA MS",
+          "segmentSummary": "MS 621 M  18JUL  CAI JED  HK1  09:15 11:40",
+          "note": "SPECIAL MEAL REQUEST"
+        }
+      ]
+    },
+    {
+      "queueNumber": 1,
+      "category": 2,
+      "nameAr": "تغييرات جدول محتاجة مراجعة",
+      "nameEn": "SCHEDULE CHANGE",
+      "pnrs": [
+        {
+          "recordLocator": "MKXDTZ",
+          "passengerName": "HASSAN/OMAR MR",
+          "segmentSummary": "EK 926 K  20JUL  DXB LHR  HK1  03:15 07:45",
+          "note": "FLIGHT TIME CHANGED +2HRS - NEEDS REVIEW"
+        },
+        {
+          "recordLocator": "RTCQYH",
+          "passengerName": "IBRAHIM/MONA MRS",
+          "segmentSummary": "QR 1312 B  22JUL  DOH CAI  HK1  06:30 08:10",
+          "note": "SCHEDULE CHANGE - NEEDS CONFIRMATION"
+        }
+      ]
+    },
+    {
+      "queueNumber": 8,
+      "category": 0,
+      "nameAr": "تذاكر لازم تتصدر",
+      "nameEn": "TICKETING",
+      "pnrs": [
+        {
+          "recordLocator": "ZBNQWX",
+          "passengerName": "ABDALLA/KARIM MR",
+          "segmentSummary": "TK 754 Y  16JUL  IST CAI  HK1  10:05 13:20",
+          "note": "TICKETING DEADLINE TODAY"
+        },
+        {
+          "recordLocator": "WDXCEF",
+          "passengerName": "MAHMOUD/SARA MS",
+          "segmentSummary": "MS 803 H  17JUL  CAI AMM  HK1  08:00 09:35",
+          "note": "TICKETING DEADLINE TODAY"
+        },
+        {
+          "recordLocator": "QNLFYK",
+          "passengerName": "OSMAN/TAREK MR",
+          "segmentSummary": "EK 928 M  19JUL  DXB BEY  HK1  12:10 14:50",
+          "note": "TICKETING DEADLINE TOMORROW"
+        }
+      ]
+    },
+    {
+      "queueNumber": 3,
+      "category": 0,
+      "nameAr": "طلبات خاصة ومساعدة",
+      "nameEn": "SPECIAL ASSISTANCE",
+      "pnrs": [
+        {
+          "recordLocator": "HVRMDS",
+          "passengerName": "FATTAH/NOOR MS",
+          "segmentSummary": "QR 1105 Y  21JUL  DOH JFK  HK1  02:20 09:15",
+          "note": "UNACCOMPANIED MINOR - NEEDS COORDINATION"
+        },
+        {
+          "recordLocator": "CJTBPN",
+          "passengerName": "RASHID/ZEIN MR",
+          "segmentSummary": "MS 986 B  23JUL  CAI FRA  HK1  23:50 04:30",
+          "note": "WHEELCHAIR REQUEST - CONFIRM WITH AIRPORT"
+        }
+      ]
+    }
+  ]
+}

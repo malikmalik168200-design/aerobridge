@@ -1,0 +1,13 @@
+[
+  { "cityCode": "CAI", "carId": "C001", "companyCode": "ZE", "companyName": "HERTZ", "carType": "ECAR", "dailyRate": 45, "currency": "USD" },
+  { "cityCode": "CAI", "carId": "C002", "companyCode": "ZI", "companyName": "AVIS", "carType": "CDAR", "dailyRate": 58, "currency": "USD" },
+  { "cityCode": "CAI", "carId": "C003", "companyCode": "ET", "companyName": "ENTERPRISE", "carType": "ICAR", "dailyRate": 72, "currency": "USD" },
+
+  { "cityCode": "DXB", "carId": "C004", "companyCode": "ZE", "companyName": "HERTZ", "carType": "ECAR", "dailyRate": 58, "currency": "USD" },
+  { "cityCode": "DXB", "carId": "C005", "companyCode": "ET", "companyName": "ENTERPRISE", "carType": "CDAR", "dailyRate": 75, "currency": "USD" },
+  { "cityCode": "DXB", "carId": "C006", "companyCode": "ZI", "companyName": "AVIS", "carType": "ICAR", "dailyRate": 95, "currency": "USD" },
+
+  { "cityCode": "JED", "carId": "C007", "companyCode": "ZI", "companyName": "AVIS", "carType": "ECAR", "dailyRate": 40, "currency": "USD" },
+  { "cityCode": "JED", "carId": "C008", "companyCode": "SX", "companyName": "SIXT", "carType": "CDAR", "dailyRate": 60, "currency": "USD" },
+  { "cityCode": "JED", "carId": "C009", "companyCode": "ET", "companyName": "ENTERPRISE", "carType": "ICAR", "dailyRate": 78, "currency": "USD" }
+]
