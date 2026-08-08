@@ -1088,4 +1088,3 @@ function handleQE(cmd) {
   addPnrToQueue(queueNumber, lastCompletedPnr);
   return `QUEUED TO Q${queueNumber}`;
 }
-
