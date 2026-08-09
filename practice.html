@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0B0E1A" />
+  <meta name="description" content="AeroBridge — Amadeus terminal training environment: Learn, Practice, and Assessment modes." />
+  <title>AeroBridge — التدريب</title>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/shell.css" />
+  <link rel="stylesheet" href="assets/css/practice.css" />
+</head>
+<body>
+  <!-- ============ HEADER (shared shell — identical markup on every page) ============ -->
+  <header class="app-header">
+    <a class="brand" href="index.html" aria-label="AeroBridge — Home">
+      <span class="brand__logo" aria-hidden="true">
+        <svg viewBox="0 0 32 32">
+          <defs>
+            <linearGradient id="ab-mark" x1="2" y1="2" x2="30" y2="30" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#7FA0FF" />
+              <stop offset="1" stop-color="#4F7BF5" />
+            </linearGradient>
+          </defs>
+          <rect x="2" y="2" width="28" height="28" rx="9" fill="url(#ab-mark)" />
+          <path d="M9 21 16 9 23 21" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M11.9 16.6 20.1 16.6" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" />
+        </svg>
+      </span>
+      <span class="brand__word"><span class="w-aero">Aero</span><span class="w-bridge">Bridge</span></span>
+    </a>
+
+    <div class="header__controls">
+      <div class="seg" role="group" aria-label="Language / اللغة">
+        <button class="seg__btn" id="lang-ar" type="button" aria-pressed="true">AR</button>
+        <button class="seg__btn" id="lang-en" type="button" aria-pressed="false">EN</button>
+      </div>
+
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Toggle dark and light theme" title="Toggle theme">
+        <svg class="icon ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z" /></svg>
+        <svg class="icon ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" /></svg>
+      </button>
+
+      <button class="avatar" type="button" aria-label="Your profile">
+        <span aria-hidden="true">KJ</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ MAIN ============ -->
+  <main class="practice-shell">
+    <section class="practice-heading" aria-labelledby="page-title">
+      <div>
+        <p class="eyebrow" data-ar="التدريب" data-en="Practice">التدريب</p>
+        <h1 id="page-title" data-ar="محاكي طرفية أماديوس" data-en="Amadeus terminal simulator">محاكي طرفية أماديوس</h1>
+      </div>
+      <div class="mode-status" id="mode-status">وضع التعلم</div>
+    </section>
+
+    <div class="mode-switcher" role="tablist" aria-label="Practice mode">
+      <button class="mode-btn is-active" role="tab" aria-selected="true" data-mode="learn" type="button" data-ar="تعلّم" data-en="Learn">تعلّم</button>
+      <button class="mode-btn" role="tab" aria-selected="false" data-mode="practice" type="button" data-ar="تدريب" data-en="Practice">تدريب</button>
+      <button class="mode-btn" role="tab" aria-selected="false" data-mode="assessment" type="button" data-ar="تقييم" data-en="Assessment">تقييم</button>
+    </div>
+
+    <div class="assessment-warning" id="assessment-warning" role="status" hidden>
+      <span class="warning-mark" aria-hidden="true">!</span>
+      <span data-ar="لا توجد تلميحات · مؤقت نشط" data-en="No hints · timed">لا توجد تلميحات · مؤقت نشط</span>
+    </div>
+
+    <!-- ============ Terminal — always English/LTR by design, even in an Arabic app ============ -->
+    <section class="terminal-wrap" aria-label="Amadeus terminal environment">
+      <div class="terminal-toolbar">
+        <div class="terminal-label">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span data-ar="جلسة تدريب محلية" data-en="Local training session">جلسة تدريب محلية</span>
+        </div>
+        <div class="terminal-actions">
+          <span class="timer" id="timer" aria-label="Elapsed time">00:42</span>
+          <button class="icon-btn chrome-btn" id="reference-toggle" type="button" aria-controls="reference-drawer" aria-expanded="false" aria-label="Open command reference">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21.5v-16Z" /><path d="M4 18.5A2.5 2.5 0 0 1 6.5 16H20" /></svg>
+            <span data-ar="المرجع" data-en="Reference">المرجع</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="terminal force-ltr" dir="ltr">
+        <div class="scrollback" aria-label="Terminal scrollback">
+          <div class="term-line term-muted">AMADEUS TRAINING ENVIRONMENT / EMULATOR 1.4</div>
+          <div class="term-line term-muted">&nbsp;</div>
+          <div class="term-line term-command"><span class="prompt">&gt;</span>AN15JULCAIDXB</div>
+          <div class="term-line term-data">&nbsp;&nbsp;AVAILABILITY - CAI / DXB - 15JUL</div>
+          <div class="term-line term-data">&nbsp;&nbsp;CAI DXB 15JUL&nbsp; T&nbsp; 0&nbsp; 1&nbsp; 2&nbsp; 3&nbsp; 4&nbsp; 5&nbsp; 6&nbsp; 7</div>
+          <div class="term-line term-data">&nbsp;&nbsp;MS&nbsp; 912&nbsp; Y7 B7 M7 K7 H7 Q7 V7 L7&nbsp; CAI 08:00&nbsp; DXB 12:10</div>
+          <div class="term-line term-error">&nbsp;&nbsp;FORMAT ERROR &middot; CHECK ENTRY</div>
+          <div class="term-line term-muted">&nbsp;</div>
+          <div class="term-line term-command"><span class="prompt">&gt;</span>SS1Y1</div>
+        </div>
+        <div class="terminal-input-row">
+          <span class="prompt" aria-hidden="true">&gt;</span>
+          <input id="command-input" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="GDS command input" />
+          <span class="caret" aria-hidden="true"></span>
+        </div>
+      </div>
+    </section>
+
+    <aside class="coach-card" id="coach-card" aria-live="polite">
+      <div class="coach-topline">
+        <div class="coach-title"><span class="coach-mark" aria-hidden="true">i</span><span data-ar="ملاحظة المدرب" data-en="Coach note">ملاحظة المدرب</span></div>
+        <button class="text-btn" id="coach-toggle" type="button" aria-expanded="true" data-ar="طي" data-en="Collapse">طي</button>
+      </div>
+      <div class="coach-body" id="coach-body">
+        <div class="raw-error"><span data-ar="الرد الخام" data-en="Raw response">الرد الخام</span><code>FORMAT ERROR &middot; CHECK ENTRY</code></div>
+        <p data-ar="يحتاج إدخال التوفر إلى بادئة شركة الطيران قبل رقم الرحلة. راجع صيغة SS أو أعد إدخال أمر التوفر الكامل." data-en="The availability entry needs the airline prefix before the flight number. Review the SS format or re-enter the complete availability command.">يحتاج إدخال التوفر إلى بادئة شركة الطيران قبل رقم الرحلة. راجع صيغة SS أو أعد إدخال أمر التوفر الكامل.</p>
+      </div>
+    </aside>
+  </main>
+
+  <!-- ============ Reference drawer ============ -->
+  <aside class="reference-drawer" id="reference-drawer" aria-hidden="true" aria-label="Command reference">
+    <div class="drawer-head">
+      <div>
+        <p class="eyebrow" data-ar="مرجع سريع" data-en="Quick reference">مرجع سريع</p>
+        <h2 data-ar="صياغة الأوامر" data-en="Command syntax">صياغة الأوامر</h2>
+      </div>
+      <button class="icon-btn" id="reference-close" type="button" aria-label="Close reference">×</button>
+    </div>
+    <div class="reference-list">
+      <div class="reference-row"><code>AN15JULCAIDXB</code><span data-ar="عرض التوفر" data-en="Display availability">عرض التوفر</span></div>
+      <div class="reference-row"><code>SS1Y1</code><span data-ar="بيع مقعد واحد" data-en="Sell one seat">بيع مقعد واحد</span></div>
+      <div class="reference-row"><code>RT</code><span data-ar="استدعاء الحجز" data-en="Retrieve booking">استدعاء الحجز</span></div>
+    </div>
+  </aside>
+  <div class="drawer-backdrop" id="drawer-backdrop" hidden></div>
+
+  <!-- ============ BOTTOM NAV (shared shell — identical markup on every page) ============ -->
+  <nav class="bottom-nav" aria-label="Primary">
+    <a class="nav-item" id="nav-link-progression" href="index.html">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3v18h18" /><path d="m7 15 4-4 3 3 5-6" /></svg>
+      <span id="nav-progression">Progression</span>
+    </a>
+    <a class="nav-item" id="nav-link-practice" href="practice.html">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m4 17 6-6-6-6" /><path d="M12 19h8" /></svg>
+      <span id="nav-practice">Practice</span>
+    </a>
+    <a class="nav-item" id="nav-link-growth" href="growth-record.html">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l5 5v13a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z" /><path d="M14 3v6h6M9 13h6M9 17h4" /></svg>
+      <span id="nav-growth">Growth Record</span>
+    </a>
+  </nav>
+
+  <script src="assets/js/shell.js"></script>
+  <script src="assets/js/practice.js"></script>
+</body>
+</html>
