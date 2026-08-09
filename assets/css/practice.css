@@ -1,0 +1,245 @@
+/* ============================================================
+   AeroBridge — Practice / Terminal screen (page-specific)
+   Requires shell.css for tokens + header/nav/buttons.
+   The terminal itself uses its OWN palette (--term-*) defined
+   below — intentionally different from the app chrome, and always
+   forced English/LTR regardless of the app's current language.
+   ============================================================ */
+
+:root {
+  --term-bg: #050a12;
+  --term-command: #4ea1f3;
+  --term-data: #e8ecf1;
+  --term-success: #3ed598;
+  --term-error: #ff5c5c;
+  --term-cursor: #3ed598;
+}
+
+.force-ltr { direction: ltr; }
+
+/* ============================================================
+   Shell / heading
+   ============================================================ */
+.practice-shell {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: var(--sp-6) var(--sp-4) calc(var(--nav-h) + var(--sp-8));
+}
+
+.practice-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--sp-4);
+  margin-bottom: var(--sp-4);
+  flex-wrap: wrap;
+}
+.practice-heading h1 { margin: 4px 0 0; font-size: clamp(20px, 4vw, 26px); font-weight: 700; letter-spacing: -0.01em; line-height: 1.25; }
+.mode-status { font-size: 13px; font-weight: 600; color: var(--color-text-2); }
+
+/* ============================================================
+   Mode switcher
+   ============================================================ */
+.mode-switcher {
+  display: inline-flex;
+  width: max-content;
+  max-width: 100%;
+  padding: 3px;
+  gap: 2px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--r-ctrl);
+  margin-bottom: var(--sp-4);
+}
+.mode-btn {
+  border: 0;
+  background: transparent;
+  color: var(--color-text-2);
+  font-size: 13px;
+  font-weight: 700;
+  min-width: 92px;
+  padding: 9px 14px;
+  border-radius: 4px;
+  transition: color 0.15s ease, background 0.15s ease;
+}
+.mode-btn.is-active { background: var(--color-surface-2); color: var(--color-text); }
+
+.assessment-warning {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  width: max-content;
+  max-width: 100%;
+  margin-bottom: var(--sp-4);
+  padding: 8px 12px;
+  border-radius: var(--r-ctrl);
+  color: var(--color-amber);
+  background: color-mix(in srgb, var(--color-amber) 10%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-amber) 35%, transparent);
+  font-size: 12px;
+  font-weight: 700;
+}
+.warning-mark {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 16px; height: 16px; border-radius: 50%;
+  border: 1.5px solid currentColor; font-size: 11px; line-height: 1; flex-shrink: 0;
+}
+
+/* ============================================================
+   Terminal
+   ============================================================ */
+.terminal-wrap {
+  border: 1px solid var(--color-border-2);
+  border-radius: var(--r-card);
+  overflow: hidden;
+  background: var(--term-bg);
+  box-shadow: 0 18px 40px -20px rgba(0, 0, 0, 0.6);
+}
+
+.terminal-toolbar {
+  direction: ltr;
+  min-height: 50px;
+  padding: 0 var(--sp-4);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+.terminal-label { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--color-text-2); }
+.status-dot {
+  width: 7px; height: 7px; border-radius: 50%;
+  background: var(--color-success);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-success) 18%, transparent);
+  flex-shrink: 0;
+}
+.terminal-actions { display: flex; align-items: center; gap: var(--sp-3); }
+.timer {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 13px;
+  color: var(--color-text-2);
+  font-variant-numeric: tabular-nums;
+  transition: color 0.2s ease;
+}
+.timer.is-prominent { color: var(--term-error); font-weight: 700; font-size: 14px; }
+
+.chrome-btn { width: auto; padding: 0 11px; gap: 6px; font-size: 12px; font-weight: 600; }
+.chrome-btn span { white-space: nowrap; }
+.chrome-btn:disabled { opacity: 0.4; pointer-events: none; }
+
+.terminal {
+  min-height: 340px;
+  display: flex;
+  flex-direction: column;
+  color: var(--term-data);
+  background: var(--term-bg);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 13px;
+  line-height: 1.75;
+}
+.scrollback { flex: 1; padding: var(--sp-6) var(--sp-4) var(--sp-3); overflow: auto; }
+.term-line { min-height: 22px; white-space: pre-wrap; word-break: break-word; }
+.term-muted { color: #637187; }
+.term-command { color: var(--term-command); }
+.term-data { color: var(--term-data); }
+.term-error { color: var(--term-error); }
+.prompt { color: var(--term-success); margin-inline-end: 8px; }
+
+.terminal-input-row {
+  direction: ltr;
+  display: flex;
+  align-items: center;
+  min-height: 52px;
+  padding: 0 var(--sp-4);
+  border-top: 1px solid #162234;
+  color: var(--term-command);
+  transition: background-color 0.15s ease;
+}
+.terminal-input-row:focus-within { background: #07111d; }
+.terminal-input-row input {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--term-command);
+  font: inherit;
+  direction: ltr;
+}
+.caret {
+  width: 8px; height: 18px; flex-shrink: 0;
+  background: var(--term-cursor);
+  animation: blink 1.05s steps(2, start) infinite;
+}
+.terminal-input-row:focus-within .caret { display: none; }
+@keyframes blink { 50% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .caret { animation: none; } }
+
+/* ============================================================
+   Coach card
+   ============================================================ */
+.coach-card {
+  margin-top: var(--sp-4);
+  border: 1px solid color-mix(in srgb, var(--color-amber) 32%, var(--color-border));
+  background: var(--color-surface);
+  border-radius: var(--r-card);
+  overflow: hidden;
+}
+.coach-topline { display: flex; align-items: center; justify-content: space-between; padding: var(--sp-3) var(--sp-4); }
+.coach-title { display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 700; }
+.coach-mark {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 17px; height: 17px; border-radius: 50%;
+  border: 1.5px solid var(--color-amber); color: var(--color-amber);
+  font-size: 11px; font-weight: 700; font-style: italic; font-family: Georgia, serif;
+}
+.text-btn { border: 0; background: transparent; color: var(--color-text-2); font-size: 12px; font-weight: 600; }
+.text-btn:hover { color: var(--color-text); }
+.coach-body { display: grid; grid-template-columns: minmax(150px, 0.7fr) 1.3fr; gap: var(--sp-4); padding: 0 var(--sp-4) var(--sp-4); color: var(--color-text-2); font-size: 13px; }
+.coach-body p { margin: 0; line-height: 1.6; }
+.raw-error { display: flex; flex-direction: column; gap: 6px; font-size: 11px; color: var(--color-text-3); }
+.raw-error code { font-family: "JetBrains Mono", monospace; font-size: 12px; color: var(--term-error); direction: ltr; unicode-bidi: plaintext; }
+.coach-card.is-collapsed .coach-body { display: none; }
+
+/* ============================================================
+   Reference drawer
+   ============================================================ */
+.reference-drawer {
+  position: fixed;
+  z-index: 50;
+  top: 0; bottom: 0; inset-inline-end: 0;
+  width: min(340px, calc(100% - 32px));
+  padding: var(--sp-6) var(--sp-4);
+  background: var(--color-surface);
+  border-inline-start: 1px solid var(--color-border-2);
+  box-shadow: -20px 0 45px rgba(0, 0, 0, 0.35);
+  transform: translateX(105%);
+  transition: transform 0.25s ease;
+  overflow-y: auto;
+}
+[dir="rtl"] .reference-drawer { transform: translateX(-105%); }
+.reference-drawer.is-open { transform: translateX(0); }
+
+.drawer-head { display: flex; align-items: flex-start; justify-content: space-between; gap: var(--sp-4); padding-bottom: var(--sp-4); border-bottom: 1px solid var(--color-border); }
+.drawer-head h2 { margin: 2px 0 0; font-size: 18px; font-weight: 700; letter-spacing: -0.01em; }
+.drawer-head .icon-btn { font-size: 18px; line-height: 1; }
+
+.reference-list { padding-top: var(--sp-4); }
+.reference-row { display: flex; flex-direction: column; gap: 5px; padding: var(--sp-3) 0; border-bottom: 1px solid var(--color-border); }
+.reference-row code { font-family: "JetBrains Mono", monospace; color: var(--color-accent); direction: ltr; unicode-bidi: plaintext; }
+.reference-row span { font-size: 12px; color: var(--color-text-2); }
+
+.drawer-backdrop { position: fixed; z-index: 49; inset: 0; background: rgba(3, 5, 12, 0.55); }
+
+[hidden] { display: none !important; }
+
+/* ============================================================
+   Small screens
+   ============================================================ */
+@media (max-width: 460px) {
+  .terminal { min-height: 300px; font-size: 12px; }
+  .chrome-btn span { display: none; }
+  .coach-body { grid-template-columns: 1fr; }
+  .mode-btn { min-width: 0; flex: 1; padding: 9px 8px; }
+  .mode-switcher { width: 100%; }
+}
