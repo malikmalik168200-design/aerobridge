@@ -20,22 +20,27 @@
    parser.js uses internally), so both sides observe the same
    browseState — no duplicated state here.
 
-   SCOPE THIS SESSION: only the data parser.js needs (airports,
-   airlines, flights, rbd) is loaded/initialized. pricing.js,
-   ancillary.js, and seatmaps.js are transitively imported (parser.js
-   imports them at the top of its module graph) but their init
-   functions are deliberately NOT called yet — their commands
-   (FQD, HA, CA, QT...) are out of scope for this session and have
-   not been tested end-to-end. Calling their real handlers with
-   uninitialized (empty-array) internal data is still 100% honest —
-   parser.js itself will return real messages like
-   "NO FARES FOUND FOR CITY PAIR..." — but wiring their init is
-   deferred to the session that actually builds and tests those
-   commands, per DEVELOPMENT_RULES.md "build one feature at a time".
+   SCOPE PHASE 1 (AN/SS/NM/AP/TK/RF/ER/ET): only the data parser.js
+   needed (airports, airlines, flights, rbd) was loaded/initialized.
+
+   SCOPE PHASE 2 (this phase — FQD/FXP/FXB/FQN/FQR): fares.json is
+   now loaded and pricing.js is initialized too. FQD/FXP/FXB/FQN/FQR
+   needed ZERO new routing logic here — they were already reaching
+   parser.js's real handlers through the existing parseCommand()
+   branch (no queue-mode-style exception exists for pricing). The
+   only gap was that pricing.js's internal fare data was never
+   loaded, so this phase's entire change is one more fetch+init
+   call, exactly mirroring the parser.js pattern above.
+
+   ancillary.js and seatmaps.js are still transitively imported
+   (parser.js imports them at the top of its module graph) but their
+   init functions remain deliberately NOT called — their commands
+   (HA, CA, SR, SM, ST...) are still out of scope and untested.
    ============================================================ */
 
 import { initParser, normalizeInput, parseCommand } from './parser.js';
 import { isQueueModeActive, handleQueueModeInput } from './queues.js';
+import { initPricing } from './pricing.js';
 
 let engineReady = false;
 const eventLog = [];
@@ -60,14 +65,16 @@ async function fetchJSON(path) {
 export async function initEngine(dataBasePath) {
   const base = dataBasePath || 'assets/data/';
 
-  const [airports, airlines, flights, rbd] = await Promise.all([
+  const [airports, airlines, flights, rbd, fares] = await Promise.all([
     fetchJSON(base + 'airports.json'),
     fetchJSON(base + 'airlines.json'),
     fetchJSON(base + 'flights.json'),
-    fetchJSON(base + 'rbd.json')
+    fetchJSON(base + 'rbd.json'),
+    fetchJSON(base + 'fares.json')
   ]);
 
   initParser({ airports, airlines, flights, rbd });
+  initPricing(fares);
   engineReady = true;
 }
 
