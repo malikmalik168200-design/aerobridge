@@ -105,6 +105,24 @@ svg { display: block; }
   }
 }
 
+/* Visual upgrade: quiet operational shell, with the terminal carrying the
+   highest contrast and density. */
+.app-header {
+  height: 68px;
+  padding-inline: clamp(16px, 4vw, 28px);
+  background: color-mix(in srgb, var(--color-bg) 94%, transparent);
+  border-bottom-color: color-mix(in srgb, var(--color-border) 75%, transparent);
+}
+.brand__logo, .brand__logo svg { width: 34px; height: 34px; }
+.brand__word { font-size: 20px; letter-spacing: -0.03em; }
+.bottom-nav { height: calc(70px + env(safe-area-inset-bottom, 0px)); }
+.nav-item { font-size: 12px; gap: 6px; }
+.nav-item .icon { width: 21px; height: 21px; }
+
+@media (min-width: 640px) {
+  .app-header { padding-inline: 32px; }
+}
+
 /* ============================================================
    Top App Bar (shared header, every page)
    ============================================================ */

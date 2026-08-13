@@ -281,3 +281,57 @@
 .continue, .tracks, .levels { animation: rise 0.55s cubic-bezier(0.22, 1, 0.36, 1) both; }
 .tracks { animation-delay: 0.08s; }
 .levels { animation-delay: 0.16s; }
+
+/* Visual upgrade: make Progression read as a career map, not a dashboard. */
+.app-main {
+  max-width: 560px;
+  padding-top: clamp(24px, 7vw, 48px);
+  gap: 32px;
+  background-image: none;
+}
+.continue {
+  padding: 20px;
+  background: linear-gradient(145deg, color-mix(in srgb, var(--color-accent) 15%, var(--color-surface)) 0%, var(--color-surface) 72%);
+  border-color: color-mix(in srgb, var(--color-accent) 38%, var(--color-border));
+}
+.continue::after { display: none; }
+.role-context {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  border-inline-start: 2px solid var(--color-success);
+  background: color-mix(in srgb, var(--color-success) 6%, transparent);
+}
+.role-context__mark {
+  flex-shrink: 0;
+  color: var(--color-success);
+  font-family: var(--font-en);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+.role-context strong, .role-context span { display: block; }
+.role-context strong { font-size: 13px; }
+.role-context span { margin-top: 2px; color: var(--color-text-2); font-size: 11px; }
+[dir="rtl"] .role-context__mark { font-family: var(--font-en); }
+.continue-body { margin-block: 20px 22px; }
+.continue-title { font-size: clamp(20px, 5vw, 25px); }
+.continue-sub { max-width: 24ch; }
+.btn-continue { height: 50px; }
+.tracks { padding-top: 2px; }
+.section-title { margin-bottom: 10px; font-size: 17px; }
+.track-desc { padding-inline: 4px; }
+.level-list { gap: 10px; }
+.level { padding: 14px 16px; min-height: 72px; }
+.level--active { min-height: 86px; }
+.level--locked { opacity: 0.48; }
+.level-name { font-size: 14px; }
+.level-meta { font-size: 11px; }
+
+@media (max-width: 420px) {
+  .app-main { padding-inline: 16px; }
+  .continue-body { gap: 14px; }
+  .ring { width: 82px; height: 82px; }
+  .ring-value { font-size: 20px; }
+}

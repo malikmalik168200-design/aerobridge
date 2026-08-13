@@ -70,6 +70,9 @@
     referenceToggle.disabled = isAssessment;
     referenceToggle.setAttribute("aria-disabled", String(isAssessment));
     timerEl.classList.toggle("is-prominent", isAssessment);
+    timerEl.setAttribute("aria-label", isAssessment
+      ? (currentLang() === "ar" ? "الوقت المنقضي في التقييم" : "Assessment elapsed time")
+      : (currentLang() === "ar" ? "جلسة تعليم بلا ضغط زمني" : "Untimed learning session"));
     if (isAssessment) closeDrawer();
   }
 

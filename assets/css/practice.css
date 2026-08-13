@@ -243,3 +243,55 @@
   .mode-btn { min-width: 0; flex: 1; padding: 9px 8px; }
   .mode-switcher { width: 100%; }
 }
+
+/* Visual upgrade: the terminal is the signature operational surface. */
+.practice-shell {
+  max-width: 680px;
+  padding-top: 28px;
+}
+.practice-heading { margin-bottom: 18px; }
+.practice-heading h1 { font-size: clamp(22px, 5vw, 30px); }
+.mode-status { font-family: var(--font-en); font-size: 12px; letter-spacing: 0.02em; }
+.mode-switcher { width: 100%; margin-bottom: 18px; }
+.mode-btn { flex: 1; padding-block: 10px; }
+.terminal-wrap {
+  border-color: #2d4d78;
+  border-radius: 10px;
+  box-shadow: 0 24px 50px -28px rgba(49, 117, 190, 0.75);
+}
+.terminal-toolbar {
+  min-height: 46px;
+  background: #0d1726;
+  border-bottom-color: #1c314b;
+}
+.terminal-label { font-family: var(--font-en); font-size: 11px; letter-spacing: 0.02em; }
+.timer { color: #6f8198; font-size: 12px; }
+.terminal { min-height: 0; height: auto; background: var(--term-bg); }
+.scrollback {
+  flex: none;
+  min-height: 150px;
+  max-height: 42vh;
+  padding: 18px 16px 14px;
+}
+.term-line { min-height: 21px; }
+.terminal-input-row {
+  min-height: 56px;
+  background: #07111d;
+  border-top-color: #1d3854;
+}
+.terminal-input-row input { font-size: 14px; }
+.coach-card {
+  margin-top: 12px;
+  border-color: color-mix(in srgb, var(--color-amber) 48%, var(--color-border));
+  background: #111827;
+}
+.coach-topline { padding-block: 12px; }
+.coach-body { padding-bottom: 14px; }
+.raw-error code { letter-spacing: 0.02em; }
+
+@media (max-width: 460px) {
+  .practice-shell { padding-top: 22px; }
+  .scrollback { min-height: 128px; max-height: 35vh; }
+  .terminal-input-row { min-height: 52px; }
+  .coach-card { margin-top: 10px; }
+}

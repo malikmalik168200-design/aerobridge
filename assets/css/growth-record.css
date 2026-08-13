@@ -299,3 +299,36 @@ dialog.modal::backdrop { background: rgba(5, 7, 14, 0.6); -webkit-backdrop-filte
   .rp-stats { grid-template-columns: 1fr; }
   .tab { padding: 7px 11px; }
 }
+
+/* Visual upgrade: a readable performance record, not a metrics wall. */
+.page { max-width: 680px; padding-top: 30px; }
+.page__head { margin-bottom: 22px; }
+.page__title { font-size: clamp(24px, 6vw, 30px); letter-spacing: -0.03em; }
+.page__sub { max-width: 42ch; line-height: 1.65; }
+.tabs-row { margin-bottom: 20px; }
+.tabs { border-radius: 8px; }
+.tab { padding-inline: 15px; }
+.backup-btn { border-style: solid; border-color: color-mix(in srgb, var(--color-amber) 42%, var(--color-border)); background: color-mix(in srgb, var(--color-amber) 7%, transparent); }
+.record-meta { gap: 8px; margin-bottom: 24px; }
+.chip { background: transparent; padding-inline: 9px; }
+.track-group { margin-bottom: 28px; }
+.track-head { margin-bottom: 10px; }
+.track-head h2 { font-size: 14px; }
+.skill-list { gap: 8px; }
+.skill {
+  padding: 14px;
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--color-surface) 92%, var(--color-bg));
+}
+.skill--notstarted { opacity: 0.5; }
+.skill__name { line-height: 1.45; }
+.skill__bar { height: 4px; margin-top: 9px; }
+.skill__meta { gap: 10px; }
+.clean-runs { color: var(--color-text-2); }
+
+@media (max-width: 420px) {
+  .page { padding-top: 24px; }
+  .tabs-row { align-items: stretch; }
+  .tabs { flex: 1; }
+  .backup-btn { width: 100%; justify-content: center; }
+}
